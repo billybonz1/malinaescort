@@ -1,0 +1,1123 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kharkovescort.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2669                
+POS_VISITOR 32181               
+POS_DAY 34233               
+POS_DOMAIN 3488                
+POS_LOGIN 3718                
+POS_ROBOT 3873                
+POS_WORMS 4730                
+POS_EMAILSENDER 4861                
+POS_EMAILRECEIVER 5004                
+POS_SESSION 34986               
+POS_SIDER 35195               
+POS_FILETYPES 5139                
+POS_DOWNLOADS 5238                
+POS_OS 5309                
+POS_BROWSER 5516                
+POS_SCREENSIZE 6931                
+POS_UNKNOWNREFERER 7005                
+POS_UNKNOWNREFERERBROWSER 7870                
+POS_ORIGIN 8211                
+POS_SEREFERRALS 8351                
+POS_PAGEREFS 8550                
+POS_SEARCHWORDS 9194                
+POS_KEYWORDS 9694                
+POS_MISC 2333                
+POS_ERRORS 10081               
+POS_CLUSTER 3574                
+POS_SIDER_404 10205               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101035746 1 0 17623483680998
+FirstTime 20151201000140
+LastTime 20151231185847
+LastUpdate 20160101040101 1 0 0 0 0
+TotalVisits 170                 
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 13 190428 53 81 98065
+1 14 14 158690 41 64 172462
+2 12 12 142906 62 84 194367
+3 17 17 238035 31 67 217086
+4 13 13 206297 21 46 87178
+5 14 14 206297 32 66 200775
+6 17 17 253904 36 72 156411
+7 28 28 396725 48 100 225559
+8 28 28 412594 56 112 178576
+9 29 29 396725 34 90 130808
+10 51 51 777581 49 147 231046
+11 25 25 380856 54 104 273110
+12 18 18 269773 101 141 301703
+13 26 26 333249 51 98 194392
+14 23 23 349118 39 83 152666
+15 25 25 380941 51 112 228694
+16 22 22 349118 29 74 124432
+17 11 11 174559 129 164 402908
+18 18 18 285642 46 103 209611
+19 24 24 364987 41 97 317519
+20 11 11 158690 21 64 123253
+21 12 12 190428 72 100 198227
+22 1 1 15869 39 61 138456
+23 14 14 142874 30 63 169883
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 466 466 6776286
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+bot[\s_+:,\.\;\/\\-] 135 193308 20151229184341 120
+googlebot 84 984406 20151231160829 22
+baiduspider 76 1206044 20151220123433 0
+no_user_agent 65 539762 20151231104846 13
+robot 39 618891 20151220132054 0
+favicon 28 444332 20151230171030 0
+yandex 15 32050 20151227144924 13
+slurp 9 31906 20151226062924 7
+seznambot 8 192 20151219135838 8
+mj12bot 8 47727 20151218032705 5
+core 1 15869 20151202123204 0
+spider 2 48 20151218095823 2
+libwww 1 15869 20151223202439 0
+mail\.ru 2 15893 20151231111145 1
+unknown 6 144 20151218200151 6
+phantom 4 63476 20151218020220 0
+python 1 15869 20151231042803 0
+surveybot 2 15893 20151205174547 1
+scanner 1 15869 20151218220800 0
+netcraft 2 15869 20151209185810 0
+crawl 4 15917 20151218071010 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 464 6776116 0 0
+xml 2 170 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 200 0 4704
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 16
+linuxandroid 50
+winlong 1
+winxp 24
+symbian 1
+win2000 9
+winvista 18
+winunknown 1
+j2me 1
+win2003 1
+sunos 1
+winnt 24
+linuxubuntu 1
+linux 57
+win7 160
+macosx 81
+Unknown 36
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 79
+chrome44.0.2403.125 1
+msie6.0 3
+chrome40.0.2214.115 2
+firefox26.0 1
+chrome28.0.1500.94 1
+firefox18.0 38
+firefox4.0 1
+chrome31.0.1650.57 1
+curl 1
+chrome31.0.1650.63 1
+msie8.0 4
+firefox43.0 8
+msie7.0 8
+chrome37.0.2062.120 4
+chrome17.0.963.46 1
+chrome27.0.1453 2
+firefox9.0.1 1
+firefox42.0 17
+firefox38.0 5
+chrome14.0.803.0 1
+chrome47.0.2526.73 11
+firefox12.0 1
+chrome32.0.1700.107 6
+chrome46.0.2490.80 1
+safari7.0.6 1
+safari6.0.5 1
+chrome36.0.1985.143 28
+chrome47.0.2526.106 34
+mozilla 20
+netscape5.0 16
+firefox14.0.1 19
+chrome42.0.2311.135 3
+netscape4.0 1
+chrome46.0.2486.0 2
+chrome46.0.2490.86 12
+firefox3.5.19 1
+chrome41.0.2228.0 15
+chrome44.0.2403.133 1
+safari9.0.2 4
+safari 10
+chrome21.0.1180.89 1
+chrome34.0.1847.76 6
+safari7.0 2
+firefox5.0 1
+chrome43.0.2357.124 1
+android 5
+chrome41.0.2251.0 1
+chrome38.0.2125.101 4
+opera9.80 6
+safari8.0.6 2
+firefox31.0 2
+chrome46.0.2490.76 4
+chrome39.0.0.0 1
+chrome47.0.2526.76 1
+firefox13.0.1 1
+firefox6.0.2 12
+chrome47.0.2526.80 17
+konqueror4.2 1
+safari8.0 6
+msie9.0 5
+Unknown 14
+chrome30.0.1599.101 1
+chrome47.0.2526.83 20
+chrome30.0.0.0 4
+chrome39.0.2171.93 2
+chrome14.0.810.0 1
+safari9.0.1 2
+chrome35.0.1916.141 2
+chrome28.0.1500.71 1
+chrome48.0.2564.48 2
+chrome38.0.2125.102 2
+chrome36.0.1985.135 1
+firefox1.0.7 9
+safari9.0 26
+chrome45.0.2454.101 1
+firefox37.0 2
+chrome35.0.1916.153 1
+msie10.0 2
+chrome43.0.2357.134 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/5.0_(Android_4.4.2;_Mobile;_rv:43.0)_Gecko/43.0_Firefox/43.0 20151218003336
+Ruby 20151229210411
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20151212232917
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151224165205
+Go_1.1_package_http 20151213035858
+Mozilla/4.0 20151218034320
+Riddler_(http://riddler.io/about) 20151203005828
+Mozilla/5.0_zgrab/0.x 20151230162933
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/37.7465;_U;_en)_Presto/2.12.423_Version/12.16 20151218080341
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20151211031614
+Opera/9.80_(Android;_Opera_Mini/7.28879/27.1662;_U;_ru)_Presto/2.8.119_Version/11.10_UCBrowser/8.6.1.262/145/33896/ 20151231185847
+HttpClient 20151203064412
+curl/7.38.0 20151227073443
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Ruby 20151229210411
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20151224165205
+NCSA_Mosaic/1.0_(X11;SunOS_4.1.4_sun4m) 20151220080042
+HttpClient 20151203064412
+Go_1.1_package_http 20151213035858
+Riddler_(http://riddler.io/about) 20151203005828
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 228 228
+From1 0 0
+From2 179 179
+From3 57 57
+From4 2 2
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 163 163
+bing 3 3
+yandex 11 11
+ask 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://top1-seo-service.com/try.php 23 23
+http://rankings-analytics.com/try.php 11 11
+http://viplviv.com 3 3
+http://scripted.com/viplviv.com 3 3
+http://91.226.127.250:80 3 3
+http://scripted.com/sexlviv.com 3 3
+http://yandex.ua/clck/jsredir 2 2
+http://www.aza.com.ua/servis/view1.html 2 2
+http://tr.viplviv.com 2 2
+http://buttons-for-website.com 1 1
+http://hvd-store.com 1 1
+http://my.galkahost.com/admin/supporttickets.php 1 1
+http://burger-imperia.com 1 1
+http://www.yandex.ua/clck/jsredir 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+lviv+prostitutes 1
+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5+%d0%b4%d0%b5%d1%88%d0%b5%d0%b2%d1%8b%d0%b5+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+prostitutes+in+lviv 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2+%d0%bf%d1%83%d1%82%d0%b0%d0%bd%d1%8b 1
+massage+lviv+sex+girl 1
+sexy+spa+lviv 1
+escorts+lviv 1
+lviv+escort 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+lviv 6
+prostitutes 2
+%d0%b4%d0%b5%d1%88%d0%b5%d0%b2%d1%8b%d0%b5 1
+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5 1
+massage 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+girl 1
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8 1
+in 1
+escorts 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+sex 1
+spa 1
+escort 1
+%d0%bf%d1%83%d1%82%d0%b0%d0%bd%d1%8b 1
+sexy 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 3 2964
+206 2 10584
+400 1 309
+404 1420 423996
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 627
+//phpMyAdmin-2.10.2.0/scripts/setup.php 1 -
+/images/forms/170x253/5633bf173cfdd.jpg 1 -
+/520/Karina/380689171301 2 -
+/images/forms/57x80/560eeb70c95cc.JPG 1 -
+/images/forms/original/560eed441ce42.JPG 2 -
+/mysqladmin/ 2 -
+/images/forms/original/550601d079ba7.jpg 1 -
+/493/masha/380000000000 1 -
+/images/forms/170x253/550606cce84cb.jpg 1 -
+/504/mila/380689171301 3 -
+//phpMyAdmin3/scripts/setup.php 1 -
+/487/Dina/380689171301 2 -
+/xmlrpc.php 2 -
+//phpMyAdmin-3.0.1.0-english/scripts/setup.php 1 -
+/comment/captcha/v/564128441da91 1 -
+/images/forms/original/5636487022eb6.JPG 1 -
+/images/forms/170x253/563648d7a179d.JPG 1 -
+/474/kristina/380689171301 2 -
+/images/forms/57x80/563648d59bf09.JPG 1 -
+/493/Masha/380689171301 2 -
+/comment/captcha/v/5613edc17d60e 1 -
+/dbadmin/main.php 1 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/images/forms/170x253/560eeca979cf4.JPG 1 -
+/images/forms/original/553d35320f90e.jpg 1 -
+/474/kristina/380000000000 2 -
+/485/dasha/380934244224 1 http://sexlviv.com/
+/cms/libraries/simplepie/README.txt 1 -
+/comment/captcha/v/56530014e6b28 1 -
+/mysql/main.php 1 -
+/511/Nica/380934244224 1 -
+//phpMyAdmin-2.7.6/scripts/setup.php 1 -
+/images/forms/57x80/563648dd8636f.JPG 1 -
+/485/sofa/380934244224 1 -
+/site/captcha/v/5658569351cf8 1 -
+/511/nica/380984772750 1 -
+//phpMyAdmin-2.10.0.0/scripts/setup.php 1 -
+/images/forms/170x253/563649d0134ed.JPG 1 -
+/488/olya/380689171301 2 -
+/js/lib/ccard.js 1 -
+/ispmgr 2 -
+/483/tina/380934244224 1 -
+/494/emilia/380966999000 1 -
+/cgi-bin/php 2 -
+/485/sofa/380966999000 1 -
+/sqlweb/ 2 -
+/images/forms/57x80/563648d960e53.JPG 1 -
+/508/lilya/380068917130 1 -
+/images/forms/original/551fa1d34439e.jpg 1 -
+/498/lola/380934244224 4 -
+/images/forms/170x253/562fb2969bb6e.jpg 1 -
+/496/jennie/380689171301 4 -
+/483/tina/380689171301 3 -
+/516/elena/380689171301 3 -
+/site/captcha/v/5667c9371103d 1 -
+/site/captcha/v/56567273a1a77 1 -
+/images/forms/170x253/560eecf0bd810.JPG 1 -
+/images/forms/57x80/560eebd975b8e.JPG 1 -
+/phpmyadmin/scripts/signon.php 1 -
+/540/Inga/380689171301 1 -
+/474/Kristina/380966999000 1 -
+/493/Masha/380966999000 3 -
+/486/alyonushka/380984772750 1 -
+/images/forms/170x253/5505fddaacd48.jpg 1 -
+/images/forms/original/560eebd703e43.JPG 1 -
+//phpMyAdmin-2.10.1.0/scripts/setup.php 1 -
+/images/forms/original/551fa24cb41c4.jpg 1 -
+/491/anytchka/380966999000 2 -
+/site/captcha/v/55d98fab01949 1 -
+/487/dina/380689171301 1 -
+/images/forms/170x253/563648730ae85.JPG 1 -
+/images/forms/57x80/551fa20461369.jpg 1 -
+/main.php 1 -
+/484/tanya/380689171301 4 -
+/501/alina/380689171301 3 -
+/487/Dina/380000000000 1 -
+/images/forms/144x205/54da88c393156.jpg 1 -
+/images/forms/original/5636506702f3b.JPG 1 -
+/491/anytchka/380984772750 1 -
+/474/Kristina/380934244224 1 -
+/site/captcha/v/5637410102376 1 -
+/site/captcha/v/566913bf79e42 1 -
+/532/mila/380689171301 1 -
+/images/forms/170x253/5636487022eb6.JPG 1 -
+/comment/captcha/v/55d98faaed5ea 1 -
+/websql/ 2 -
+/519/sasha/380689171301 3 -
+/513/marina/380689171301 3 -
+/site/captcha/v/5654401ac9481 1 -
+/482/Nastya/380934244224 1 -
+/491/Anytchka/380934244224 1 -
+//phpMyAdmin-2.8.5/scripts/setup.php 1 -
+/comment/captcha/v/562e527465ea6 1 -
+/images/forms/170x253/563648b62d083.JPG 1 -
+//admin/scripts/setup.php 1 -
+/images/forms/82x115/5636490b3d7ed.JPG 1 -
+/site/captcha/v/5619b57248eef 1 -
+/images/forms/original/563a5b0828e01.jpg 2 -
+/administrator 1 -
+/comment/captcha/v/5661026098128 1 -
+/484/Tanya/380934244224 1 -
+//cpanelphpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.5/scripts/setup.php 1 -
+/images/forms/57x80/550606b395dfd.jpg 2 -
+/site/captcha/v/565438276eafc 1 -
+//phpMyAdmin-2.11.0.0/scripts/setup.php 1 -
+/images/forms/170x253/5636490a30998.JPG 1 -
+/images/forms/57x80/5526d5a062a37.jpg 1 -
+/comment/captcha/v/565bfb238706c 1 -
+/506/masha/380934244224 12 -
+/40/strap 1 -
+/redirect.php 1 -
+/images/forms/57x80/5636494289aec.JPG 1 -
+/528/Katrine/380689171301 1 -
+/user/soapCaller.bs 3 -
+/490/girlfriend/380689171301 2 -
+/phpMyAdmin-2.5.6/main.php 1 -
+/images/forms/original/55060541f3898.jpg 1 -
+/482/katia/380934244224 1 -
+//phpMyAdmin-2.11.1.0/scripts/setup.php 1 -
+/cgi-bin/php-cgi 1 -
+/html/languages/es_es/menu.js 1 -
+//phpMyAdmin-2.11.1.2/scripts/setup.php 1 -
+/images/forms/original/5636489455517.JPG 2 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/phpmyadmin2/main.php 1 -
+/images/forms/original/5526d59a34a30.jpg 1 -
+//phpMyAdmin-3.1.2.0-english/scripts/setup.php 1 -
+/images/forms/57x80/56364963aec77.JPG 1 -
+/user/registration/captcha/v/565f78517336e 1 -
+//phpMyAdmin-2.6.6/scripts/setup.php 1 -
+/admin 1 -
+/site/captcha/v/5652d0acd2fbc 1 -
+/images/forms/170x253/56365067d2654.JPG 1 -
+/517/Katya/380689171301 2 -
+/490/girlfriend/380966999000 1 -
+/pma/scripts/setup.php 2 -
+/images/forms/57x80/5533ab09313d6.jpg 1 -
+//a2billing 2 -
+/images/forms/300x430/5633bf2379315.jpg 1 -
+/news/wp-login.php 1 -
+/mysql-admin/ 2 -
+/site/captcha/v/565a9c50aaf75 1 -
+/images/forms/original/56364985710bf.JPG 1 -
+/517/katya/380689171301 4 -
+/images/forms/original/560eec4f3e7ec.JPG 1 -
+/site/captcha/v/565e56ba7c15e 1 -
+/images/forms/170x253/560eebd0cfeb3.JPG 1 -
+/images/forms/82x115/560eec0811bce.JPG 1 -
+//phpMyAdmin-2/scripts/setup.php 2 -
+/484/tanya/380966999000 2 -
+/512/Victoria/380689171301 1 -
+/webadmin/ 2 -
+/530/karina/380689171301 1 -
+//phpMyAdmin-2.8.2.3/scripts/setup.php 1 -
+/images/forms/original/55ad4be24b6aa.JPG 1 -
+/501/Alina/380934244224 1 -
+/486/Alyonushka/380934244224 1 -
+/496/Jennie/380934244224 1 -
+/site/captcha/v/565b43d645b5d 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/503/Tanya/380934244224 1 -
+/images/forms/57x80/5506069837a4a.jpg 1 -
+/513/Marina/380689171301 3 -
+/512/marina/380934244224 1 -
+/phpMyAdmin-2.5.1/main.php 1 -
+/testproxy.php 8 -
+/images/forms/original/560eeb70c95cc.JPG 1 -
+/514/Varvara/380689171301 2 http://viplviv.com/514/varvara/380689171301
+//phpMyAdmin-2.6.9/scripts/setup.php 1 -
+/images/forms/82x115/560eecea05459.JPG 1 -
+/500/Vika/380934244224 1 -
+/db/main.php 1 -
+/482/nastya/380934244224 2 -
+/phpMyAdmin/scripts/setup.php 4 -
+/styles.css 340 http://kharkovescort.com/
+/tcpipwan.asp 2 http://91.226.127.250:80
+/images/forms/170x253/5636494289aec.JPG 1 -
+/%20%D0%A2%D0%95%D0%9A%D0%A1%D0%A2%D0%AB%20%D0%9D%D0%90%20%D0%A1%D0%90%D0%99%D0%A2 5 -
+/484/Tanya/380000000000 2 -
+/style/fancybox/jquery.fancybox.css 2 http://en.viplviv.com/
+/site/captcha/v/56645a43eff42 2 -
+/494/emilia/380000000000 1 -
+/images/forms/original/560eebd975b8e.JPG 1 -
+/487/dina/380000000000 1 -
+/admin/mysql/main.php 1 -
+/515/milana/380689171301 4 -
+//phpMyAdmin-2.6.5/scripts/setup.php 1 -
+//phpMyAdmin-2.8.6/scripts/setup.php 1 -
+/mysql/scripts/setup.php 1 -
+/site/captcha/v/5668a19b974ea 1 -
+/jeecms.do 1 -
+/501/Alina/380689171301 3 -
+/images/forms/original/560eecef3aaf2.JPG 2 -
+/494/Emilia/380689171301 2 -
+/wp-admin/admin-ajax.php 1 -
+/images/forms/original/55ad4c9698650.JPG 1 -
+/cgi-bin/common/attr 80 -
+/483/tina/380000000000 1 -
+/496/jennie/380984772750 1 -
+/images/forms/original/550bfa453c175.jpg 1 -
+/474/kristina/380934244224 1 -
+/phpMyAdmin-2.6.0-pl1/main.php 1 -
+/PMA/main.php 1 -
+/485/sofa/380984772750 2 -
+/images/forms/57x80/56364949a28b2.JPG 1 -
+//dbadmin/scripts/setup.php 1 -
+/486/alyonushka/380689171301 5 -
+/490/girlfriend 1 -
+/site/captcha/v/566b525449741 1 -
+/521/Kate/380689171301 1 -
+/images/forms/original/560eebfd9850a.JPG 2 -
+/test/libraries/simplepie/README.txt 1 -
+/shop/libraries/simplepie/README.txt 1 -
+/491/anytchka/380689171301 4 -
+/492/oksana/380934244224 14 -
+/images/forms/170x253/563648d960e53.JPG 1 -
+/plugins/system/plugin_googlemap2_proxy.php 1 -
+/515/Milana/380689171301 2 -
+/503/Tanya/380689171301 4 -
+/518/Marta/380689171301 2 -
+/519/Sasha/380689171301 2 -
+/sitemap.xml 5 -
+//scripts/setup.php 1 -
+/images/forms/original/550bfb604d2d4.jpg 2 -
+/486/alyonushka/380000000000 1 -
+/495/Svetlana/380689171301 1 -
+/images/forms/82x115/562e499f42d96.jpg 1 -
+/500/vika/380689171301 4 -
+//phpadmin/scripts/setup.php 1 -
+/images/forms/original/5636490a30998.JPG 1 -
+/browserconfig.xml 3 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+/images/forms/57x80/563648dba9657.JPG 1 -
+/joomla/libraries/simplepie/README.txt 2 -
+//phpMyAdmin-2.10.0/scripts/setup.php 1 -
+/mysqlmanager/ 2 -
+/503/tanya/380934244224 16 -
+/mysql/ 2 -
+//phpMyAdmin-2.10.0.2/scripts/setup.php 1 -
+/images/forms/82x115/560eebd0cfeb3.JPG 1 -
+/site/captcha/v/5645f62d4cd0d 1 -
+/511/nica/380934244224 1 -
+/images/forms/82x115/562fb2d583eae.jpg 1 -
+/images/forms/170x253/563366a0ccbca.jpg 1 -
+/site/captcha/v/562e52746e1b4 1 -
+/comment/captcha/v/566bedd645347 1 -
+//phpMyAdmin-2.7.7/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 3 -
+/538/Agata/380689171301 1 -
+//phpMyAdmin2/scripts/setup.php 1 -
+/images/forms/170x253/5636494c9fba1.JPG 1 -
+/blog/wp-login.php 2 -
+/images/forms/original/550606cce84cb.jpg 1 -
+/images/forms/170x253/563649ccdcd8a.JPG 1 -
+/home 1 -
+/498/lola/380689171301 3 -
+/cgi-bin/test-cgi 3 -
+/phpMyAdmin-2/ 2 -
+/500/Vika/380689171301 2 -
+/cgi-bin/php.cgi 1 -
+/510/Angelina/380689171301 1 -
+/500/vika/380934244224 1 -
+//phpMyAdmin-2.9.0.1/scripts/setup.php 1 -
+/images/forms/original/5505fc5832ef5.jpg 1 -
+//phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php 1 -
+/site/libraries/simplepie/README.txt 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/MyAdmin/scripts/setup.php 2 -
+/images/forms/82x115/560eeb6e0db8e.JPG 1 -
+/494/emilia/380689171301 2 -
+/phpmyadmin/scripts/setup.php 7 -
+//_phpmyadmin/scripts/setup.php 1 -
+/images/forms/170x253/5505fda98e080.jpg 1 -
+/492/Oksana/380689171301 1 -
+/muieblackcat 6 -
+/webdb/ 2 -
+/comment/captcha/v/566ccf38ba403 1 -
+/images/forms/original/560eebd51ea36.JPG 2 -
+//db/scripts/setup.php 1 -
+/509/julia/380689171301 5 -
+//php/phpmyadmin/scripts/setup.php 1 -
+/images/forms/original/5528019c698b5.jpg 1 -
+/comment/captcha/v/565507a5a803e 1 -
+/images/forms/original/563648dba9657.JPG 1 -
+/511/ksusha/380689171301 3 -
+/images/forms/57x80/550bfb7f19687.jpg 2 -
+/images/forms/82x115/563649667f880.JPG 2 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+/images/forms/57x80/5636489455517.JPG 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/libraries/simplepie/README.txt 2 -
+/images/forms/170x253/553d3593e4d38.jpg 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/497/alisa/380934244224 3 -
+/manager/html 2 -
+/images/forms/170x253/563648d345565.JPG 1 -
+/507/Mariya/380689171301 4 -
+/phpMyAdmin-2.6.3/main.php 1 -
+//mysql/scripts/setup.php 1 -
+//phpMyAdmin-2.9.2/scripts/setup.php 1 -
+/images/forms/170x253/553d35bf702ec.jpg 1 -
+/admin.php 1 -
+/488/olya/380984772750 1 -
+/493/Masha/380000000000 1 -
+/images/forms/170x253/553d374998768.jpg 1 -
+/484/Tanya/380689171301 3 -
+/508/alisa/380934244224 2 -
+/site/captcha/v/5654d9014ef02 1 -
+/sql/ 2 -
+/images/forms/144x205/54da889f8e2a5.jpg 1 -
+/484/YLANA/380984772750 1 -
+//phpMyAdmin-2.9.0-rc1/scripts/setup.php 1 -
+/mysqladmin/main.php 1 -
+/phpMyAdmin-2.6.3-rc1/main.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/494/emilia/380934244224 3 -
+/507/mariya/380689171301 4 -
+/images/forms/170x253/551fa1d34439e.jpg 5 -
+/images/forms/original/563649694585d.JPG 1 -
+/comment/captcha/v/5654401ac11df 1 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+/HNAP1/ 1 -
+/images/forms/170x253/562fb2a8c2027.jpg 1 -
+/504/mila/380934244224 1 -
+/491/anytchka/380000000000 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/comment/captcha/v/566b191262518 1 -
+/482/nastya/380966999000 1 -
+/web/phpMyAdmin/main.php 1 -
+/wp-login.php 10 -
+/521/kate/380689171301 2 -
+/images/forms/original/560eeca979cf4.JPG 1 -
+/images/forms/57x80/560eebd51ea36.JPG 1 -
+//phpMyAdmin-2.8.9/scripts/setup.php 1 -
+/login.action 1 -
+/blogs/libraries/simplepie/README.txt 1 -
+/phpMyAdmin-2.6.2-rc1/main.php 1 -
+/images/forms/original/560eec0214de2.JPG 2 -
+/482/nastya/380000000000 1 -
+/508/Lilya/380689171301 2 http://en.viplviv.com/
+/492/oksana/380984772750 1 -
+/site/captcha/v/564af98a383bc 1 -
+/images/forms/original/5506069837a4a.jpg 1 -
+/496/Jennie/380000000000 3 -
+http://testp3.pospr.waw.pl/testproxy.php 1 -
+/blog/xmlrpc.php 1 -
+/495/anytchka/380000000000 1 -
+/site/captcha/v/566ccf38c21eb 1 -
+/images/forms/original/560eec518579d.JPG 1 -
+/images/forms/170x253/563649d632c9b.JPG 1 -
+/483/Tina/380934244224 1 -
+/images/forms/170x253/551fa22b08ffc.jpg 1 -
+/494/Emilia/380934244224 1 -
+//admin/pma/scripts/setup.php 1 -
+/PMA/ 2 -
+/images/forms/original/562e498fad115.jpg 2 -
+/images/forms/original/5511c025e473f.jpg 1 -
+/500/vika/380093424422 3 -
+/511/Ksusha/380689171301 1 -
+//phpMyAdmin-3.1.0.0/scripts/setup.php 1 -
+/images/forms/original/56364981d7db7.JPG 1 -
+/images/forms/170x253/560eebd975b8e.JPG 1 -
+//administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php 1 -
+/images/forms/original/563366ad27a1c.jpg 1 -
+/484/tanya/380934244224 1 -
+/images/forms/170x253/5511c025e473f.jpg 1 -
+//forum/phpmyadmin/scripts/setup.php 1 -
+/491/anytchka 1 -
+/comment/captcha/v/5616dbd944a5b 1 -
+//phpMyAdmin-3.0.1.1/scripts/setup.php 1 -
+/490/girlfriend/380000000000 1 -
+/admin/pma/main.php 1 -
+/site/captcha/v/5668f18ca4451 1 -
+/490/Girlfriend/380689171301 1 -
+/505/Katya+/380689171301 1 -
+/site/captcha/v/566bc5f5e7afc 1 -
+/faqs-new/wp-login.php 1 -
+//phpMyAdmin-2.9.0.2/scripts/setup.php 1 -
+/images/forms/57x80/562fb2d583eae.jpg 1 -
+/images/forms/original/560eec4e29772.JPG 1 -
+/wordpress/wp-login.php 1 -
+/507/Lola/380934244224 1 -
+//php-my-admin/scripts/setup.php 1 -
+/index.action 1 -
+/474/Kristina/380689171301 2 http://viplviv.com/474/kristina/380689171301
+/site/captcha/v/5659649aee2c4 1 -
+/514/varvara/380689171301 5 -
+/497/Alisa/380934244224 1 -
+/images/forms/57x80/563648f0a464a.JPG 1 -
+/images/forms/170x253/5636492c76a6e.JPG 1 -
+/webdav/ 1 -
+/comment/captcha/v/56529fecef8ee 1 -
+/images/forms/original/563649685110a.JPG 1 -
+/news/libraries/simplepie/README.txt 1 -
+/520/karina/380689171301 2 -
+/images/forms/170x253/560eebd703e43.JPG 1 -
+/site/captcha/v/56478ec2108cd 2 -
+/images/forms/170x253/562fb2d583eae.jpg 1 -
+/16/strip_tease_amateur 1 -
+/site/captcha/v/560bbd095db46 1 -
+/phpmyadmin2/ 2 -
+/493/masha/380966999000 3 -
+/comment/captcha/v/561dff7a819d8 1 -
+/comment/captcha/v/56522575612ca 2 -
+/495/sofi/380934244224 1 -
+/images/forms/170x253/5511bf6b55ce0.jpg 1 -
+/images/forms/57x80/5636494c9fba1.JPG 1 -
+/images/forms/82x115/560eecedb5439.JPG 2 -
+/phpMyAdmin-2.6.0/main.php 1 -
+/support/wp-login.php 1 -
+/images/forms/original/550601c430221.jpg 1 -
+/u_index.htm 1 -
+/admin/ 2 -
+/images/forms/170x253/560eecea05459.JPG 1 -
+/demo/libraries/simplepie/README.txt 1 -
+/images/forms/57x80/560eeb6f7fca3.JPG 1 -
+/drupal 1 http://KHARKOVESCORT.COM/drupal
+/php-my-admin/ 2 -
+/images/forms/original/563648b45d770.JPG 1 -
+/images/forms/57x80/563649726d7d5.JPG 1 -
+/482/KATIA/380934244224 1 -
+/images/forms/original/560eec04ecc22.JPG 1 -
+/493/masha/380689171301 3 -
+//phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php 1 -
+/cgi-bin/php4 1 -
+/images/forms/170x253/5532c6ccb3e6f.jpg 1 -
+//phpMyAdmin-2.8.3/scripts/setup.php 1 -
+/wp-includes/images/rss.png 1 http://kharkovescort.com/
+/502/marina/380689171301 4 -
+/images/forms/original/560eed1347ea5.JPG 1 -
+/497/Kristina/380934244224 1 -
+/497/Alisa/380689171301 2 -
+/images/forms/300x430/562e499f42d96.jpg 1 -
+//phpMyAdmin-2.11.1.1/scripts/setup.php 1 -
+/images/forms/original/550bfb6f3aa54.jpg 1 -
+/501/alina/380934244224 3 -
+/496/jennie/380934244224 1 -
+/485/sofa/380000000000 2 -
+/status 1 -
+/497/alisa/380689171301 2 -
+/images/forms/170x253/550bfb604d2d4.jpg 1 -
+/images/forms/82x115/562e498fad115.jpg 1 -
+/phppath/cgi_wrapper 1 -
+/496/jennie/380966999000 1 -
+/images/forms/original/563648f3c4957.JPG 2 -
+/psp/ps/ 1 -
+/images/forms/original/563648926197d.JPG 1 -
+/508/lilya/380689171301 2 -
+/496/Jennie/380689171301 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/css/css 1 -
+/phpMyAdmin/ 2 -
+/images/forms/170x253/5636494471e9e.JPG 1 -
+/488/olya/380966999000 1 -
+//phpMyAdmin-2.8.4/scripts/setup.php 1 -
+/server-status 1 -
+/492/oksana/380966999000 3 -
+/488/Olya/380689171301 1 -
+//phpMyAdmin-2.9.0/scripts/setup.php 1 -
+/form/ajaxSearch 1 -
+/images/forms/144x205/54da88a6dc360.jpg 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0.1/scripts/setup.php 1 -
+/site/captcha/v/5616dbd94d297 1 -
+/images/forms/57x80/551fa22b08ffc.jpg 1 -
+//MyAdmin/scripts/setup.php 6 -
+//phpMyAdmin-3.4.3.1/scripts/setup.php 1 -
+/comment/captcha/v/56329289c885c 1 -
+/487/dina/380934244224 2 -
+/images/forms/original/562e499f42d96.jpg 2 -
+/images/forms/original/560eeca878e9c.JPG 2 -
+/CFIDE/administrator/ 1 -
+//cpphpmyadmin/scripts/setup.php 1 -
+/493/masha/380934244224 2 -
+/495/anytchka/380966999000 1 -
+/images/forms/original/560eed3c85e3c.JPG 4 -
+/491/Anytchka/380966999000 1 -
+//phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php 1 -
+/pma/ 2 -
+/images/forms/original/563648d59bf09.JPG 1 -
+/phpMyAdmin2/ 2 -
+/492/oksana/380689171301 1 -
+/images/forms/original/55acf8e970bcd.JPG 1 -
+/images/forms/170x253/563648b45d770.JPG 1 -
+/images/forms/original/560eed1104363.JPG 1 -
+/505/Margo/380934244224 1 -
+/comment/captcha/v/563c55a6e0016 1 -
+/486/alyonushka/380934244224 1 -
+/images/forms/57x80/563648953faed.JPG 1 -
+/forum/wp-login.php 1 -
+/512/victoria/380689171301 4 -
+/images/forms/original/562fb28746b9b.jpg 2 -
+/496/jennie/380000000000 2 -
+//pma/scripts/setup.php 7 -
+/541/Anfisa/380689171301 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 6 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/blog/libraries/simplepie/README.txt 1 -
+/images/forms/57x80/563a5b0828e01.jpg 1 -
+/getNews.action 1 -
+/site/captcha/v/5653ebb67dbd1 1 -
+/images/forms/57x80/563648d345565.JPG 1 -
+/images/forms/144x205/54da88fd0ea77.jpg 1 -
+/images/forms/original/560eebd0cfeb3.JPG 1 -
+/images/forms/original/563649083c2fc.JPG 1 -
+/images/forms/57x80/560eed1347ea5.JPG 1 -
+//mysqladmin/scripts/setup.php 1 -
+/486/Alyonushka/380689171301 2 -
+/images/forms/original/560eec1fe815d.JPG 1 -
+/images/forms/170x253/563648ece1582.JPG 1 -
+/491/anytchka/380934244224 1 -
+//myadmin/scripts/setup.php 7 -
+/504/angelica+/380934244224 1 -
+/images/forms/original/560eebfed953d.JPG 1 -
+/485/sofa/380689171301 8 -
+/administrator/index.php 3 -
+/doLogin.do 1 -
+/php-myadmin/ 2 -
+/529/Olga/380689171301 1 -
+/502/marina/380934244224 2 -
+/506/masha/380689171301 1 -
+/bitrix/admin/ 2 -
+/loginUI.action 1 -
+/images/forms/original/550601c9b8f4a.jpg 2 -
+//phpMyAdmin-2.8.7/scripts/setup.php 1 -
+/images/forms/original/563648ece1582.JPG 1 -
+/unAuthorizedAccess.action 1 -
+/images/forms/57x80/5636493498c8f.JPG 1 -
+/images/forms/170x253/560eebd323819.JPG 1 -
+/site/captcha/v/5654fea91bd80 1 -
+/user 2 -
+/495/svetlana/380689171301 12 -
+/phpMyAdmin-2.5.4/main.php 1 -
+/474/kristina/380984772750 1 -
+/images/forms/57x80/560eec265b9a4.JPG 1 -
+/phpMyAdmin-2.2.3/main.php 1 -
+/site/captcha/v/56530014ef069 1 -
+/490/girlfriend/380934244224 15 -
+//phpMyAdmin-3.0.0-rc1-english/scripts/setup.php 1 -
+/m/ 5 -
+/492/Oksana/380966999000 1 -
+/phpmy-admin/ 2 -
+/phpMyAdmin-2.6.3-pl1/main.php 1 -
+/images/forms/original/550bfb7f19687.jpg 1 -
+/site/captcha/v/55d9841200881 1 -
+/488/olya/380934244224 2 -
+/488/olya/380000000000 2 -
+/images/forms/57x80/560eebd323819.JPG 1 -
+/site/captcha/v/56537dd43a925 1 -
+/mysql-admin/main.php 1 -
+/style/css/allCSS.php 2 http://en.viplviv.com/
+/images/forms/original/560eed1229b43.JPG 1 -
+/phpmyadmin/ 2 -
+//apache-default/phpmyadmin/scripts/setup.php 1 -
+/518/marta/380689171301 4 -
+/42/golden_shower_out 1 -
+/499/kristina/380689171301 3 -
+/492/Oksana/380934244224 1 -
+/498/Lola/380689171301 1 -
+/44/scat 2 -
+/503/tanya/380689171301 2 -
+/510/angelina/380689171301 3 -
+/490/Girlfriend/380934244224 3 -
+//web/scripts/setup.php 1 -
+/site/captcha/v/565597428f93d 1 -
+/images/forms/original/5511bf6b55ce0.jpg 1 -
+//phpMyAdmin-2.8.8/scripts/setup.php 1 -
+/images/forms/original/563649d0134ed.JPG 1 -
+/images/forms/57x80/550bfa453c175.jpg 1 -
+/site/captcha/v/562a60d981111 1 -
+/images/forms/82x115/560eebfd9850a.JPG 1 -
+/527/anita/380689171301 1 -
+/images/forms/170x253/563648f0a464a.JPG 1 -
+//websql/scripts/setup.php 1 -
+/images/forms/170x253/56364871c70f0.JPG 1 -
+/481/MARTA/380934244224 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 2 -
+/admin/main.php 1 -
+/images/forms/original/56364871c70f0.JPG 1 -
+/comment/captcha/v/565861a324165 1 -
+/cgi-bin/php5 1 -
+/images/forms/original/563649ccdcd8a.JPG 1 -
+/images/forms/original/5636487587b56.JPG 1 -
+/images/forms/original/56364949a28b2.JPG 1 -
+/store/libraries/simplepie/README.txt 1 -
+//blog/phpmyadmin/scripts/setup.php 1 -
+/404 1 -
+/phpMyAdmin/scripts/signon.php 1 -
+/images/forms/300x430/560eec1fe815d.JPG 1 -
+/wp/wp-login.php 2 -
+//phpMyAdmin-3.0.1.0/scripts/setup.php 1 -
+/admin/phpmyadmin/main.php 1 -
+/483/tina/380966999000 12 -
+/images/forms/original/560eebd323819.JPG 1 -
+/535/Margo/380689171301 1 -
+/images/forms/original/560eecec2cbad.JPG 1 -
+/html/languages/es_es/main.js 1 -
+/phpMyAdmin-2.2.6/main.php 1 -
+/images/forms/82x115/560eeceaf3633.JPG 1 -
+/images/forms/57x80/553d34e86b217.jpg 1 -
+/images/forms/170x253/5532c6bf62686.jpg 1 -
+/site/captcha/v/5615b45760ff0 1 -
+/comment/captcha/v/565408d021dbb 1 -
+/images/forms/57x80/560eecea05459.JPG 1 -
+/comment/captcha/v/5652984e326ab 1 -
+/images/forms/original/5636490dad775.JPG 1 -
+/502/Marina/380689171301 3 -
+/484/tanya/380984772750 1 -
+/sqlmanager/ 2 -
+//phpMyAdmin-3.1.2.0/scripts/setup.php 1 -
+/phpmyadmin/main.php 1 -
+/comment/captcha/v/566bd9ede17bc 1 -
+/33/mistress 2 -
+/comment/captcha/v/565988cb3ad33 1 -
+/p/m/a/ 2 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+/images/forms/170x253/550606b395dfd.jpg 1 -
+/images/forms/original/560eecea05459.JPG 1 -
+/11/sex_anal 7 -
+/images/forms/170x253/550bfb6f3aa54.jpg 1 -
+//phpMyAdmin/scripts/setup.php 6 -
+/499/kristina/380934244224 2 -
+/dbadmin/ 2 -
+//phpMyAdmin-3.1.0.0-english/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+91.226.127.250 395 395 5919275 20151220141154
+51.254.213.233 7 7 111083 20151231104846
+62.210.162.182 6 6 95214 20151229210411
+2.96.113.148 5 5 79345 20151228165937
+128.232.110.29 2 2 31738 20151230114812
+178.136.238.117 2 2 31738 20151230194744
+185.35.62.11 2 2 31738 20151230162933
+141.212.121.176 2 2 31738 20151229134920
+89.105.248.141 2 2 31738 20151228142711
+66.249.88.131 1 1 15869 20151227202834
+146.185.203.88 1 1 0 20151228074906
+54.194.180.34 1 1 15869 20151222085135
+176.77.8.245 1 1 15869 20151231061720
+37.57.0.204 1 1 15869 20151226205139
+91.238.114.196 1 1 0 20151230005229
+46.203.82.122 1 1 15869 20151227104529
+178.57.65.170 1 1 0 20151227230103
+185.101.68.92 1 1 0 20151228194229
+194.50.116.54 1 1 0 20151228084012
+46.191.213.88 1 1 15869 20151226124407
+46.243.173.170 1 1 0 20151226205456
+94.248.57.137 1 1 15869 20151228090359
+213.21.33.12 1 1 15869 20151227065228
+37.230.212.87 1 1 0 20151227131212
+5.28.172.193 1 1 15869 20151224165205
+168.235.196.39 1 1 15869 20151231185847
+95.181.178.106 1 1 15869 20151226145637
+109.87.30.244 1 1 15869 20151231024833
+185.106.92.44 1 1 0 20151227073443
+146.185.203.49 1 1 0 20151229143514
+46.229.170.197 1 1 15869 20151229000950
+94.102.48.195 1 1 15869 20151221203936
+37.18.42.167 1 1 0 20151228011556
+193.0.129.177 1 1 0 20151226120051
+46.243.173.60 1 1 0 20151228064740
+81.28.170.236 1 1 15869 20151221075942
+193.105.7.67 1 1 15869 20151228035925
+158.69.228.18 1 1 15869 20151228215353
+182.118.45.213 1 1 15869 20151231122836
+46.188.40.54 1 1 15869 20151231024605
+131.253.38.67 1 1 85 20151230022307
+178.165.51.192 1 1 15869 20151229190018
+37.230.213.34 1 1 0 20151228051020
+141.101.201.29 1 1 0 20151228095237
+141.101.201.155 1 1 0 20151227233023
+5.9.112.207 1 1 15869 20151227082922
+93.179.69.61 1 1 15869 20151230011557
+136.243.48.84 1 1 15869 20151231071657
+37.57.107.216 1 1 15869 20151227111751
+185.106.104.148 1 1 0 20151227130511
+178.163.55.62 1 1 15869 20151220145739
+208.100.26.230 1 1 15869 20151212020755
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 3 3 47607 2
+20151202 8 8 126952 6
+20151203 10 10 158690 8
+20151204 8 8 111168 5
+20151205 13 13 206297 7
+20151206 5 5 79345 4
+20151207 6 6 95214 5
+20151208 10 10 158690 6
+20151209 15 15 238035 8
+20151210 8 8 126952 5
+20151211 16 16 206297 6
+20151212 9 9 127005 6
+20151213 42 42 666498 4
+20151214 7 7 111083 6
+20151215 3 3 47607 3
+20151216 5 5 79345 5
+20151217 58 58 856926 3
+20151218 78 78 1126699 4
+20151219 53 53 777581 7
+20151220 40 40 603022 6
+20151221 3 3 47607 3
+20151222 1 1 15869 1
+20151223 1 1 15869 1
+20151224 2 2 31738 2
+20151225 2 2 31738 2
+20151226 7 7 79345 7
+20151227 11 11 95214 11
+20151228 19 19 190428 14
+20151229 8 8 111083 8
+20151230 8 8 95299 8
+20151231 7 7 111083 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 18
+5mn-15mn 6
+2mn-5mn 1
+30s-2mn 1
+15mn-30mn 4
+0s-30s 124
+30mn-1h 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 463 6776063 167 168
+/BingSiteAuth.xml 2 170 2 1
+/google1f9bc751ef1cc238.html 1 53 1 1
+END_SIDER

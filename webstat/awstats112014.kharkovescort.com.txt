@@ -1,0 +1,457 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201411 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kharkovescort.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2656                
+POS_VISITOR 9980                
+POS_DAY 11990               
+POS_DOMAIN 3336                
+POS_LOGIN 3563                
+POS_ROBOT 3718                
+POS_WORMS 4098                
+POS_EMAILSENDER 4229                
+POS_EMAILRECEIVER 4372                
+POS_SESSION 12561               
+POS_SIDER 12708               
+POS_FILETYPES 4507                
+POS_DOWNLOADS 4590                
+POS_OS 4659                
+POS_BROWSER 4765                
+POS_SCREENSIZE 5082                
+POS_UNKNOWNREFERER 5156                
+POS_UNKNOWNREFERERBROWSER 5716                
+POS_ORIGIN 6067                
+POS_SEREFERRALS 6199                
+POS_PAGEREFS 6385                
+POS_SEARCHWORDS 6625                
+POS_KEYWORDS 6859                
+POS_MISC 2320                
+POS_ERRORS 7002                
+POS_CLUSTER 3419                
+POS_SIDER_404 7112                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141201002142 1 0 11077876962367
+FirstTime 0
+LastTime 20141129192345
+LastUpdate 20141201010101 1 0 0 0 0
+TotalVisits 55                  
+TotalUnique 51                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 51                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 30704 10 17 139430
+1 1 1 15352 13 18 18738
+2 1 1 15352 3 9 921
+3 3 3 46056 7 9 16892
+4 4 4 46056 5 7 31881
+5 0 0 0 29 30 24160
+6 2 2 30704 10 14 48434
+7 4 4 15352 11 14 18384
+8 3 3 30704 28 30 23543
+9 11 11 46056 13 24 49638
+10 2 2 30704 6 6 1455
+11 4 4 61408 30 40 40658
+12 1 1 15352 28 36 54566
+13 5 5 46056 15 23 110821
+14 2 2 15352 3 3 0
+15 0 0 0 8 10 62324
+16 1 1 15352 5 8 46665
+17 1 1 15352 1 2 15376
+18 3 3 46056 16 18 4744
+19 3 3 46056 14 17 49155
+20 1 1 15352 14 16 34294
+21 2 2 30704 0 2 291
+22 0 0 0 10 10 47794
+23 1 1 15352 5 5 15655
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 57 57 629432
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+no_user_agent 55 414576 20141130203928 3
+yandex 22 153808 20141103024216 12
+bot[\s_+:,\.\;\/\\-] 11 92232 20141125063922 5
+googlebot 9 107512 20141102153811 2
+unknown 3 72 20141113032636 3
+slurp 2 15376 20141101171634 1
+robot 1 24 20141101094117 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 57 629432 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 27 0 648
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 4
+winunknown 1
+winxp 3
+winlong 1
+Unknown 27
+linux 5
+win7 16
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+safari7.0 1
+msie6.0 2
+chrome29.0.1547.57 1
+mozilla 7
+microsoft\-webdav\-miniredir 1
+chrome39.0.2171.42 2
+msie7.0 4
+firefox3.0.6 1
+chrome22.0.1229.94 1
+safari4.0.4 1
+firefox9.0.1 1
+chrome36.0.1985.67 5
+chrome38.0.2125.111 6
+msie9.0 1
+chrome36.0.1985.125 1
+Unknown 22
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+StatsInfo 20141125035042
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20141103011908
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20141129192345
+Go_1.1_package_http 20141121115535
+Mozilla/5.0_(compatible;_Muenster_University_of_Applied_Sciences;__http://fb02itsscan.fh-muenster.de) 20141116235554
+()_{_:;_};_/bin/bash_-c_\ 20141112084208
+Cloud_mapping_experiment._Contact_research@pdrlabs.net 20141129092033
+NerdyBot 20141102104918
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+()_{_:;_};_/bin/bash_-c_\ 20141112084208
+StatsInfo 20141125035042
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20141129192345
+Cloud_mapping_experiment._Contact_research@pdrlabs.net 20141129092033
+Go_1.1_package_http 20141121115535
+NerdyBot 20141102104918
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 43 43
+From1 2 2
+From2 9 9
+From3 3 3
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 3 3
+baidu 4 4
+yandex 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://go.mail.ru/search 1 1
+http://yandex.ua/clck/jsredir 1 1
+http://natashaescort.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 2
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 3 2964
+400 3 927
+404 234 68328
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 102
+/phpMyAdmin/scripts/setup.inc.php 1 -
+/main.php 1 -
+/admin/config.php 2 -
+/test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php 1 -
+/clientaccesspolicy.xml 14 -
+/mysqladminconfig/scripts/setup.php 1 -
+/script 1 -
+/mysqladmin/ 3 -
+//cgi-bin/login.cgi 1 -
+/web-console/ServerInfo.jsp 1 -
+/calendar/install/index.php 1 -
+/cpadmin/scripts/setup.php 1 -
+//cgi-bin/status 1 -
+//cgi-sys/entropysearch.cgi 2 -
+/apiv7/appledaily/article/issue/20120511/artid/16327498/catid/4104/format/xml 1 -
+//MyAdmin/scripts/setup.php 2 -
+/sql/ 3 -
+/phpmy-admin/ 3 -
+/webadmin/ 3 -
+/PMA2005/scripts/setup.php 1 -
+/mysqlmanager/ 3 -
+/phpmyadmin/ 3 -
+/mysql/ 3 -
+//cgi-mod/index.cgi 2 -
+/websql/ 3 -
+/o/ 1 -
+/pma/ 3 -
+//cgi-sys/realsignup.cgi 1 -
+/php/phpMyAdmin/scripts/setup.php 1 -
+/phpMyAdmin2/ 3 -
+/rom-0 2 -
+/phpmyadmin2/ 3 -
+/cgi-sys/entropysearch.cgi 1 -
+/HNAP1/ 1 -
+/myadmin/scripts/setup.php 4 -
+/PMA/scripts/setup.php 1 -
+/checkupdate.asmx 1 -
+/azenv2.php 1 -
+/phph/php/ph.php 1 -
+/phpMyAdmin/scripts/setup.php 4 -
+/phpTest/zologize/axa.php 1 -
+/cgi-bin/test-cgi 3 -
+/wp-login.php 1 -
+/phpMyAdmin-2/ 3 -
+//cgi-sys/defaultwebpage.cgi 2 -
+/styles.css 16 http://kharkovescort.com/
+//pma/scripts/setup.php 2 -
+/admin/ 3 -
+/cgi-bin/php.cgi 5 -
+//phpmyadmin/scripts/setup.php 1 -
+/etc/lib/pChart2/examples/index.php 3 -
+/php-my-admin/ 3 -
+/SQLite/main.php 1 -
+/apple-touch-icon.png 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 2 -
+/SQlite/main.php 1 -
+/cgi-bin/php 5 -
+/sqlweb/ 3 -
+/cgi-bin/php5 5 -
+//cgi-bin/test-cgi 1 -
+/MyAdmin/scripts/setup.php 2 -
+/SQLiteManager/main.php 1 -
+/cgi-bin/php4 5 -
+http://6.url.cn/zc/chs/img/body.png 5 -
+/phpmyadmin/scripts/setup.php 3 -
+/SQLiteManager-1.2.4/main.php 1 -
+/muieblackcat 1 -
+/PHPMYADMIN/scripts/setup.php 1 -
+/world.php 1 -
+/webdb/ 3 -
+/user/soapCaller.bs 1 -
+/phpMyAdmin-2.10.3-english/scripts/setup.php 1 -
+/bebe/beb/be.php 1 -
+//myadmin/scripts/setup.php 2 -
+/cgi-bin/bts.cgi 1 -
+/cgi-bin/php-cgi 5 -
+/sqlitemanager/main.php 1 -
+/PMA/ 3 -
+/bbs/data/scripts/setup.php 1 -
+/animation/ 2 -
+/cgi-bin-sdb/printenv 1 -
+/apple-touch-icon-precomposed.png 1 -
+//cgi-bin/test/test.cgi 1 -
+/recordings/theme/iefixes.css 1 -
+/zc/chs/img/body.png 7 -
+/sqlmanager/ 3 -
+/php-myadmin/ 3 -
+/hudson/script 1 -
+/cgi-bin/ems.cgi 1 -
+/p/m/a/ 3 -
+/pma/scripts/setup.php 4 -
+/agSearch/SQlite/main.php 1 -
+//cgi-bin/test.cgi 2 -
+/ncsi.txt 1 -
+/manager/html 2 -
+/webcalendar/install/index.php 1 -
+/sqlite/main.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+/phpMyAdmin/ 3 -
+/mysql-admin/ 3 -
+/mysqlmanager/scripts/setup.php 1 -
+/dbadmin/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 51
+193.174.89.19 3 3 46056 20141116235554
+188.127.233.122 2 2 15352 20141103095742
+178.45.162.30 2 2 30704 20141104133036
+54.82.224.155 2 2 0 20141112080224
+192.184.42.203 2 2 30704 20141119033022
+91.226.57.105 1 1 15352 20141107180042
+209.126.230.71 1 1 15352 20141125035042
+78.111.26.18 1 1 15352 20141103091019
+77.122.90.13 1 1 15352 20141102115831
+54.89.82.24 1 1 0 20141105040147
+93.76.234.95 1 1 15352 20141102004543
+130.211.151.187 1 1 15352 20141102104918
+211.255.130.237 1 1 15352 20141112084208
+82.117.208.243 1 1 15352 20141129192345
+198.23.213.202 1 1 15352 20141110140500
+54.92.181.82 1 1 0 20141110131633
+54.148.38.118 1 1 15352 20141111073815
+54.198.21.210 1 1 0 20141114091627
+107.22.56.221 1 1 0 20141121072158
+5.45.192.84 1 1 15352 20141102092714
+164.40.153.130 1 1 15352 20141105194320
+54.80.20.106 1 1 0 20141116091447
+54.162.83.6 1 1 0 20141129092033
+192.184.42.204 1 1 15352 20141120183734
+109.87.9.13 1 1 15352 20141102113337
+218.28.204.120 1 1 15352 20141108065700
+54.224.201.70 1 1 0 20141118091509
+54.149.15.65 1 1 15352 20141125041713
+23.20.129.65 1 1 0 20141119091643
+109.169.221.71 1 1 15352 20141103120553
+207.102.138.158 1 1 15352 20141101180019
+178.92.8.152 1 1 15352 20141102215039
+46.164.190.196 1 1 15352 20141101110401
+104.192.0.19 1 1 15352 20141123045318
+54.162.196.30 1 1 0 20141123092010
+217.12.196.130 1 1 15352 20141101062543
+192.184.42.205 1 1 15352 20141121130925
+218.59.238.93 1 1 15352 20141101172735
+213.136.68.246 1 1 15352 20141126034706
+113.108.150.211 1 1 15352 20141109002542
+54.162.124.109 1 1 0 20141107133809
+54.91.166.58 1 1 0 20141115091725
+62.78.55.169 1 1 0 20141121145430
+216.99.146.195 1 1 15352 20141108041550
+146.148.70.220 1 1 15352 20141101104939
+118.192.48.33 1 1 15352 20141121115535
+114.247.111.17 1 1 15352 20141124084242
+54.196.102.8 1 1 0 20141106074326
+158.85.89.4 1 1 15352 20141101022227
+218.201.233.172 1 1 15352 20141122193856
+158.85.89.6 1 1 15352 20141103011908
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20141101 6 6 92112 6
+20141102 7 7 107464 7
+20141103 6 6 76760 5
+20141104 2 2 30704 1
+20141105 2 2 15352 2
+20141106 1 1 0 1
+20141107 2 2 15352 2
+20141108 2 2 30704 2
+20141109 2 2 15352 2
+20141110 2 2 15352 2
+20141111 1 1 15352 1
+20141112 2 2 15352 2
+20141114 1 1 0 1
+20141115 1 1 0 1
+20141116 2 2 15352 2
+20141118 2 2 15352 2
+20141119 2 2 15352 2
+20141120 1 1 15352 1
+20141121 4 4 30704 4
+20141122 1 1 15352 1
+20141123 2 2 15352 2
+20141124 1 1 15352 1
+20141125 2 2 30704 2
+20141126 1 1 15352 1
+20141129 2 2 15352 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 55
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 57 629432 55 55
+END_SIDER

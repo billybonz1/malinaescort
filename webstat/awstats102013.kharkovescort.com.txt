@@ -1,0 +1,958 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kharkovescort.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2655                
+POS_VISITOR 29567               
+POS_DAY 36530               
+POS_DOMAIN 3410                
+POS_LOGIN 3640                
+POS_ROBOT 3795                
+POS_WORMS 4479                
+POS_EMAILSENDER 4610                
+POS_EMAILRECEIVER 4753                
+POS_SESSION 37262               
+POS_SIDER 37453               
+POS_FILETYPES 4888                
+POS_DOWNLOADS 4973                
+POS_OS 5044                
+POS_BROWSER 5238                
+POS_SCREENSIZE 6055                
+POS_UNKNOWNREFERER 6129                
+POS_UNKNOWNREFERERBROWSER 7100                
+POS_ORIGIN 7302                
+POS_SEREFERRALS 7440                
+POS_PAGEREFS 7662                
+POS_SEARCHWORDS 8017                
+POS_KEYWORDS 13680               
+POS_MISC 2319                
+POS_ERRORS 16405               
+POS_CLUSTER 3496                
+POS_SIDER_404 16517               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101011257 1 0 9555571471952
+FirstTime 0
+LastTime 20131031173150
+LastUpdate 20131101020101 1 0 0 0 0
+TotalVisits 208                 
+TotalUnique 176                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 176                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 8 107464 289 301 166097
+1 11 11 168872 7 25 77753
+2 7 7 107464 14 35 96169
+3 12 12 184224 4 25 48776
+4 11 11 153573 4 26 17452
+5 4 4 61408 12 23 64788
+6 7 7 107464 8 34 109149
+7 15 15 230280 7 34 65068
+8 14 14 214928 19 44 111815
+9 11 11 168872 47 66 136124
+10 11 11 168872 6 30 79232
+11 28 28 429856 16 29 96082
+12 8 8 122816 51 66 167157
+13 7 7 107464 12 27 79560
+14 14 14 214928 12 43 127011
+15 14 14 214928 8 33 110207
+16 10 10 153520 20 47 173639
+17 16 16 245632 7 44 96184
+18 5 5 61408 11 24 109926
+19 1 1 15352 9 19 123608
+20 2 2 30704 5 15 62174
+21 4 4 61408 11 32 124166
+22 6 6 92112 7 19 78346
+23 2 2 30704 1 2 24
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 228 228 3454253
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+bot[\s_+:,\.\;\/\\-] 119 922536 20131031163031 59
+googlebot 53 430456 20131031125740 25
+no_user_agent 38 215096 20131031141318 7
+yandex 33 246040 20131030062311 17
+mail\.ru 22 15856 20131031200653 21
+unknown 12 288 20131024205036 12
+surveybot 6 46128 20131028101721 3
+favicon 5 76760 20131029143639 0
+ia_archiver 4 30752 20131020174047 2
+netcraft 4 15352 20131011162016 0
+python 2 30704 20131018112425 0
+[\s_+:,\.\;\/\\-]bot 2 15376 20131022003616 1
+mj12bot 2 15376 20131028053656 1
+baiduspider 3 46056 20131027092223 0
+crawl 3 46056 20131031122106 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 228 3454253 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 148 0 3552
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 15
+linuxandroid 3
+blackberry 2
+winxp 77
+winlong 4
+winnt 1
+symbian 1
+linuxubuntu 1
+linux 15
+winvista 4
+win7 78
+macosx 18
+winme 1
+win2003 1
+j2me 11
+Unknown 11
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 49
+msie6.0 13
+safari7.0 3
+chrome29.0.1547.76 7
+android 2
+firefox3.6.6 1
+chrome28.0.1500.95 2
+chrome31.0.1650.26 1
+safari4.0.5 3
+firefox4.0 1
+firefox18.0 5
+chrome7.0.517.44 1
+firefox24.0 13
+chrome17.0.963.47 1
+opera9.63 1
+chrome23.0.1271.95 21
+opera9.80 28
+msie8.0 6
+chrome20.0.1132.47 1
+msie7.0 16
+chrome30.0.1599.66 2
+chrome30.0.1599.101 11
+Unknown 4
+blackberry 2
+chrome18.0.1025.166 1
+samsung 1
+safari6.0 3
+firefox3.6.16 1
+chrome27.0.1453.110 1
+opera8.01 2
+firefox7.0.1 1
+chrome28.0.1500.71 2
+chrome20.0.1132.57 1
+chrome30.0.1599.69 9
+nokia 1
+mozilla 4
+firefox14.0.1 1
+firefox22.0 1
+chrome25.0.1364.172 6
+firefox5.0.1 1
+msie10.0 6
+safari5.1 5
+chrome22.0.1229.94 5
+firefox6.0 18
+firefox3.6.12 2
+firefox3.6.3 1
+firebird 1
+chrome27.0.1453.116 1
+firefox10.0.2 1
+safari 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20131003040943
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20131016085840
+Mozilla/5.0_(Android;_Tablet;_rv:18.0)_Gecko/18.0_Firefox/18.0 20131028140311
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.820;_U;_ru)_Presto/2.8.119_Version/11.10 20131010160051
+xmlset_roodkcableoj28840ybtide 20131016085813
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S5330/S5330XEJJ3;_U;_Bada/1.0;_ru-ru)_AppleWebKit/533.1_(KHTML,_like_Gecko)_Dolfin/2.0_Mobile_WQVGA_SMM-MMS/1.2.0_NexPlayer/3.0_profile/MIDP-2.1_configuration/CLDC-1.1_OPN-B 20131016062340
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1070;_U;_ru)_Presto/2.8.119_Version/11.10 20131031024726
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20131021181821
+Opera/9.80_(iPhone;_Opera_Mini/7.0.1/32.1024;_U;_ru)_Presto/2.8.119_Version/11.10 20131025081918
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+xmlset_roodkcableoj28840ybtide 20131016085813
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20131016085840
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 84 84
+From1 1 1
+From2 89 89
+From3 24 24
+From4 30 30
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+google 9 9
+search 2 2
+baidu 10 10
+rambler 1 1
+bing 2 2
+yandex 61 61
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://natashaescort.com 10 10
+http://kharkov.natashaescort.com 9 9
+http://78.140.173.24 2 2
+http://whois.domaintools.com/kharkovescort.com 1 1
+http://www.searchya.com 1 1
+http://forum.kharkovescort.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 40
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 17
+kharkovescort.com 10
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 4
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%be%d0%ba+%d0%b2+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5 2
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 2
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 2
+%d0%bd%d0%b5%d0%b3%d1%80%d0%b5%d1%82%d0%be%d1%81%d0%ba%d0%b8+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0+%d0%b2+%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b5 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%bc%d1%83%d0%bb%d0%b0%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%b3%d0%b4%d0%b5+%d0%b2+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d0%bd%d0%b5%d0%b3%d1%80%d0%b8%d1%82%d1%8f%d0%bd%d0%ba%d0%b8 1
+online+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7+%d0%b2+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5%d1%82%d0%b5+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%be%d0%ba+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%a8%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0+%d0%bd%d0%b5%d0%b3%d1%80%d0%b8%d1%82%d1%8f%d0%bd%d0%ba%d0%b8 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%b2+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5+%d0%bd%d0%b5%d0%b3%d1%80%d0%b8%d1%82%d1%8f%d0%bd%d0%ba%d0%b0 1
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d1%8c+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d1%83+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b0+%d1%81%d1%82%d0%b5%d0%bb%d0%bb%d0%b0+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%9f%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8%d0%b8+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2+%d1%86%d0%b5%d0%bd%d0%b0 1
+%d0%bf%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%b8%d0%bd%d1%82%d0%b8%d0%bc%d0%bd%d1%8b%d0%b5+%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2+%d0%b4%d0%be%d1%81%d1%83%d0%b3 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%be%d0%b9+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 1
+%d0%9f%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8.+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd 1
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2+250 1
+%d0%bc%d0%b0%d0%bc%d0%b1%d0%b0+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%9f%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5+%d0%98%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%bc%d0%b5%d1%81%d1%82%d0%be+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%be%d0%ba+%d0%b2+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b%d0%b5+%d0%bf%d1%80%d0%b8%d0%bc%d0%b8%d0%bd%d0%b0%d1%8e%d1%82+%d1%83+%d1%81%d0%b5%d0%b1%d1%8f+%d0%bd%d0%b0+%d0%b4%d0%be%d0%bc%d1%83+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%b3%d0%b4%d0%b5+%d0%b2+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5+%d0%bc%d0%be%d0%b6%d0%bd%d0%be+%d1%81%d0%bd%d1%8f%d1%82%d1%8c+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d1%83 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%9d%d0%95%d0%93%d0%a0%d0%98%d0%a2%d0%af%d0%9d%d0%9a%d0%98+%d0%9f%d0%a0%d0%9e%d0%a1%d0%a2%d0%98%d0%a2%d0%a3%d0%a2%d0%9a%d0%98+%d0%92+%d0%a5%d0%90%d0%a0%d0%ac%d0%9a%d0%9e%d0%92%d0%95 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b5+%d1%88%d0%bb%d1%8e%d1%85%d0%b8 1
+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5+%d0%b4%d0%b5%d1%88%d0%b5%d0%b2%d1%8b%d0%b5+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0+%d0%bf%d0%be+300+%d0%b3%d1%80 1
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d1%8c+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d1%83+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 61
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 32
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 29
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 15
+kharkovescort.com 10
+%d0%b2 8
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8 8
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8 5
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5 5
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%be%d0%ba 4
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d1%83 3
+%d0%9f%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5 1
+%d0%bd%d0%b5%d0%b3%d1%80%d0%b5%d1%82%d0%be%d1%81%d0%ba%d0%b8 1
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d1%8c 2
+%d0%bc%d0%b5%d1%81%d1%82%d0%be 1
+%d0%bd%d0%b5%d0%b3%d1%80%d0%b8%d1%82%d1%8f%d0%bd%d0%ba%d0%b8 2
+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%be%d0%b9 1
+%d0%9f%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8. 1
+%d0%b3%d0%b4%d0%b5 2
+%d0%b8%d0%bd%d1%82%d0%b8%d0%bc%d0%bd%d1%8b%d0%b5 1
+%d0%92 1
+300 1
+%d0%bc%d0%be%d0%b6%d0%bd%d0%be 1
+%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8 1
+%d0%9f%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 1
+%d1%83 1
+%d0%bc%d0%b0%d0%bc%d0%b1%d0%b0 1
+250 1
+%d1%81%d1%82%d0%b5%d0%bb%d0%bb%d0%b0 1
+%d0%bf%d0%be 1
+%d0%b4%d0%be%d1%81%d1%83%d0%b3 1
+%d1%81%d0%bd%d1%8f%d1%82%d1%8c 1
+%d0%b4%d0%be%d0%bc%d1%83 1
+%d0%98%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8 1
+%d0%a5%d0%90%d0%a0%d0%ac%d0%9a%d0%9e%d0%92%d0%95 1
+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 3
+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5 1
+%d0%bf%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 1
+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b5 1
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b5 1
+%d1%86%d0%b5%d0%bd%d0%b0 1
+%d0%bd%d0%b0 1
+%d0%bc%d1%83%d0%bb%d0%b0%d1%82%d0%ba%d0%b8 1
+%d0%b3%d1%80 1
+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5%d1%82%d0%b5 1
+%d0%b4%d0%b5%d1%88%d0%b5%d0%b2%d1%8b%d0%b5 1
+%d0%9f%d0%a0%d0%9e%d0%a1%d0%a2%d0%98%d0%a2%d0%a3%d0%a2%d0%9a%d0%98 1
+%d0%9d%d0%95%d0%93%d0%a0%d0%98%d0%a2%d0%af%d0%9d%d0%9a%d0%98 1
+%d1%81%d0%b5%d0%b1%d1%8f 1
+%d0%a8%d0%bb%d1%8e%d1%85%d0%b8 1
+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8 1
+%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b%d0%b5 1
+online 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b0 1
+%d0%bd%d0%b5%d0%b3%d1%80%d0%b8%d1%82%d1%8f%d0%bd%d0%ba%d0%b0 1
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8%d0%b8 1
+%d0%bf%d1%80%d0%b8%d0%bc%d0%b8%d0%bd%d0%b0%d1%8e%d1%82 1
+%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8 2
+%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b5 1
+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 2
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%b7 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 4 1176
+400 7 2163
+404 543 164336
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 317
+//phpdb/scripts/setup.php 1 -
+/admin/config.php 1 -
+//sqlweb/scripts/setup.php 2 -
+//%0D/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1/scripts/setup.php 1 -
+//phpMyAdmin3/scripts/setup.php 1 -
+/apu.php 20 http://kat.torrenticity.com/confirm/url/aHR0cDovL3RoZXBpcmF0ZWJheS5zZS91c2VyL1IwdGhzY2hpbGQv/
+//dbAdmin2/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//cpadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+//bkup/phpmyadmin/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 2 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//PMA/scripts/setup.php 2 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//81/phpmyadmin/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+//admn/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 2 -
+//webdb/scripts/setup.php 2 -
+/HNAP1/ 7 http://78.140.173.24/
+//admm/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.6/scripts/setup.php 1 -
+//_admin/scripts/setup.php 1 -
+//phppath/php 1 -
+//backup/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.4.6/scripts/setup.php 1 -
+//phpMyAdmin-2.8.9/scripts/setup.php 1 -
+//phpMyAdmin/%0D/scripts/setup.php 1 -
+//bbs/data/scripts/setup.php 1 -
+/cgi-bin/php 1 -
+//phpMyAdmin-2.5.2/scripts/setup.php 1 -
+//webadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.11.9.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.9/scripts/setup.php 1 -
+//phpMyAdmin-2.3.7/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+//databaseadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.4.0/scripts/setup.php 1 -
+//phpMyAdmin-3/scripts/setup.php 1 -
+//pma2/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 2 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+//phpMyAdmin-2.11.10/scripts/setup.php 1 -
+//pma2005/scripts/setup.php 2 -
+/proxy.txt 2 -
+//cpanelmysql/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//backup/phpMyAdmin/scripts/setup.php 1 -
+//pma2009/scripts/setup.php 1 -
+//phpMyAdmin-2.7.3/scripts/setup.php 1 -
+//sl2/data/scripts/setup.php 1 -
+//phpMyAdmin-2.11.8.0-english/scripts/setup.php 1 -
+//administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php 1 -
+//phpmyadmin/%0D/scripts/setup.php 1 -
+//admin/mysql/scripts/setup.php 1 -
+//Admin/scripts/setup.php 1 -
+//forum/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+//phpMyAdmin-2.4.5/scripts/setup.php 1 -
+//pma3/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5.0-all-languages/scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.3-english/scripts/setup.php 1 -
+//phpMyAdmin-2.7.8/scripts/setup.php 1 -
+//adminmysql/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7.1-english/scripts/setup.php 1 -
+//_pHpMyAdMiN/scripts/setup.php 1 -
+//phpMyAdmin-2.11.6.0-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-3.1.3.0-english/scripts/setup.php 1 -
+//PHPMYADMIN/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//_PHPMYADMIN/scripts/setup.php 1 -
+//phpMyAdmi/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 1 -
+//sql/scripts/setup.php 1 -
+//phpMyAdmin-2.11.8/scripts/setup.php 1 -
+/phpMyAdmin/translators.html 1 -
+//phpMyAdmin-2.5.9/scripts/setup.php 1 -
+//phpMyAdmin-2.7.1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+//phpmyadmin3/scripts/setup.php 1 -
+//phpMyAdmin-2.11.8.0-all-languages/scripts/setup.php 1 -
+//pHpMyAdMiN/scripts/setup.php 1 -
+//phpMyAdmin-2.4.3/scripts/setup.php 1 -
+//phpMyAdmin-2.3.5/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7/scripts/setup.php 1 -
+//phpMyAdmin-2.8.5/scripts/setup.php 1 -
+//MySQLAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//admin/scripts/setup.php 2 -
+//_phpMyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.3-all-languages/scripts/setup.php 1 -
+//cpanelsql/scripts/setup.php 1 -
+//phpMyAdmin-2.3.4/scripts/setup.php 1 -
+//phpmy-admin/scripts/setup.php 2 -
+//p/m/a/scripts/setup.php 2 -
+/remote.php 1 -
+//phpmy/scripts/setup.php 1 -
+//cpanelphpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.5.3/scripts/setup.php 1 -
+//phpMyAdmin-2.7.5/scripts/setup.php 1 -
+//Admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/apple-touch-icon.png 1 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-4/scripts/setup.php 1 -
+//phpMyAds/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.8/scripts/setup.php 1 -
+//mysqladminconfig/scripts/setup.php 1 -
+//phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.2-english/scripts/setup.php 1 -
+/invoker/EJBInvokerServlet/ 1 -
+//pHpMy/scripts/setup.php 1 -
+//phpMyAdmin-2.11.11-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.8.3/scripts/setup.php 1 -
+//php/scripts/setup.php 1 -
+/blog/ 1 http://KHARKOVESCORT.COM/blog/
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+//cpdbadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/user/soapCaller.bs 2 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-3.1.0.0-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-3.1.2.0-english/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.0-all-languages/scripts/setup.php 1 -
+/sp_login.htm 1 -
+//phpMyAdmin-2.6.6/scripts/setup.php 1 -
+/pma/scripts/setup.php 5 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+//PMA2/scripts/setup.php 1 -
+//wp-phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5/scripts/setup.php 1 -
+//admin/phpMyAmdin/scripts/setup.php 1 -
+//phpmyad/scripts/setup.php 1 -
+//phpMyAdmin-2.3.2/scripts/setup.php 1 -
+//phpMyAdmin-2.4.1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.4/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/invoker/JMXInvokerServlet 1 -
+//padmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+//phpMyAdmin-2.4.2/scripts/setup.php 1 -
+//MyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+//cpphpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.1-all-languages/scripts/setup.php 1 -
+/zabbix/index.php 2 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php 1 -
+/include/shell.php 1 -
+//phpMyAdmin/%20/scripts/setup.php 1 -
+//database/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/%70%68%70%70%61%74%68/%70%68%70 1 -
+//phpMyAdmin-2.11.9.4-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.11.3-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.11.6.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+//pmadmin/scripts/setup.php 1 -
+//phpMyAdmin-3.1.1.0-english/scripts/setup.php 1 -
+//mysql-admin/scripts/setup.php 2 -
+//phpMyAdmin-2.6.9/scripts/setup.php 1 -
+//phpmyadmin.old/scripts/setup.php 1 -
+//phpMyAdmin-3.1.3.0-all-languages/scripts/setup.php 1 -
+//phpm/scripts/setup.php 1 -
+//web/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 5 -
+//phpMyAdmin-2.3.6/scripts/setup.php 1 -
+/ip.php 1 -
+//phpMyAdmin-2.11.7.1-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.4.8/scripts/setup.php 1 -
+/styles.css 123 http://kharkovescort.com/
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//pma/scripts/setup.php 2 -
+//bkup/phpMyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//wp-content/plugins/wp-phpmyadmin/wp-phpmyadmin/phpmyadmin/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.5/scripts/setup.php 1 -
+//pma/%20/scripts/setup.php 1 -
+//phpMyAdmin-2.8.6/scripts/setup.php 1 -
+//phpMyA/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+//mysqladmin/scripts/setup.php 2 -
+//phpMyAdmin-2.11.2/scripts/setup.php 1 -
+//SSLMySQLAdmin/scripts/setup.php 1 -
+/notice.php 20 http://kat.torrenticity.com/confirm/url/aHR0cDovL3RoZXBpcmF0ZWJheS5zZS91c2VyL1IwdGhzY2hpbGQv/
+//phpMyAdmin-2.11.4.0-english/scripts/setup.php 1 -
+//sql/phpmyadmin/scripts/setup.php 1 -
+//sqladmin/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 2 -
+/zabbix/httpmon.php 1 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+//phpAdmin/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.7.4/scripts/setup.php 1 -
+//~/phpmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7.0-english/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+//phpMyAdmin-2.7.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//phpMyAdmin-2.8.7/scripts/setup.php 1 -
+//phpMyAdmin-2.3.9/scripts/setup.php 1 -
+//mysqlmanager/scripts/setup.php 2 -
+/sitemap.xml 1 -
+//phpMyAdmin-2.11.9.0-all-languages/scripts/setup.php 1 -
+//scripts/setup.php 2 -
+//phpMyAdmin-2.11.8.1-all-languages-utf-8-only/scripts/setup.php 1 -
+//PMA3/scripts/setup.php 1 -
+//pMA/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//phpMyAdmin-2.11.4/scripts/setup.php 1 -
+//phpmya/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0-rc1-english/scripts/setup.php 1 -
+//phpadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.3.0/scripts/setup.php 1 -
+//phpMyAdmin-2.4.7/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0/scripts/setup.php 1 -
+//apache-default/phpmyadmin/scripts/setup.php 1 -
+//httpdocs/scripts/setup.php 1 -
+//phpMyAdmin-2.3.1/scripts/setup.php 1 -
+//cpadmindb/scripts/setup.php 1 -
+//phpMyAdmin-2.6.7/scripts/setup.php 1 -
+//PMA2005/scripts/setup.php 2 -
+//phpMyAdmin-2.3.3/scripts/setup.php 1 -
+//phpMyAdmin-2.3.8/scripts/setup.php 1 -
+//phpMyAdmin1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.7/scripts/setup.php 1 -
+//wp-phpmyadmin/phpmyadmin/scripts/setup.php 1 -
+//admin/sql/scripts/setup.php 1 -
+//phpMyAdmin-2.11.7.0-all-languages/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 5 -
+/phpmyadmin/translators.html 1 -
+//phpMyAdmin2/scripts/setup.php 1 -
+//sql/phpMyAdmin/scripts/setup.php 1 -
+//web/scripts/setup.php 2 -
+//phpMyAdmin-2.11.9.2-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.8.8/scripts/setup.php 1 -
+//roundcube/scripts/setup.php 1 -
+//sqlmanager/scripts/setup.php 2 -
+//phpMyAdmin-2.11.6/scripts/setup.php 1 -
+//phpMyAdmin-2.5.8/scripts/setup.php 1 -
+//SQL/scripts/setup.php 1 -
+//mydatadmin/scripts/setup.php 1 -
+//websql/scripts/setup.php 2 -
+//phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php 1 -
+//phpmyadmin2/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 5 -
+/web-console/Invoker 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+//vhcs2/tools/pma/scripts/setup.php 1 -
+//xampp/phpmyadmin/scripts/setup.php 2 -
+/MyAdmin/scripts/setup.php 5 -
+//phpMyAdmin-2.11.9.5-all-languages/scripts/setup.php 1 -
+//Admin/phpMyAdmin/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 5 -
+//_phpmyadmin/scripts/setup.php 1 -
+/muieblackcat 2 -
+//blog/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+//db/scripts/setup.php 2 -
+//3rdparty/phpMyAdmin/scripts/setup.php 1 -
+//php/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0.0-english/scripts/setup.php 1 -
+/phppath/php 1 -
+//phpMyAdmin-2.11.9.1-english/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.4-english/scripts/setup.php 1 -
+http://www.daydaydata.com/proxy.txt 1 -
+//phpMyAdmin-2.6.3/scripts/setup.php 1 -
+//phpMyAdmin-2.11.4.0-all-languages/scripts/setup.php 1 -
+//PMA2009/scripts/setup.php 1 -
+//phpMyAdmin-2.5.0/scripts/setup.php 1 -
+//admin/phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1config/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpmyad-sys/scripts/setup.php 1 -
+//phpMyAdmin-2.4.9/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 2 -
+//mysql/scripts/setup.php 2 -
+/index.php 2 -
+//phpMyAdmin-2.4.4/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9/scripts/setup.php 1 -
+//phpMyAdmin-2.9.2/scripts/setup.php 1 -
+//phpMyAdmin-3.1.0.0-english/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 176
+66.249.81.142 14 14 214928 20131031024548
+91.190.57.114 13 13 199576 20131023112441
+37.187.56.98 5 5 76760 20131023070918
+131.253.38.67 4 4 61408 20131026065333
+114.207.246.173 3 3 46056 20131023111510
+46.37.173.5 3 3 46056 20131023112405
+119.233.255.24 3 3 46056 20131009013829
+207.102.138.158 3 3 46056 20131027033232
+69.58.178.56 2 2 30704 20131013170830
+5.61.32.229 2 2 30704 20131012101710
+77.122.12.104 1 1 15352 20131020044438
+54.229.249.178 1 1 15352 20131023082714
+62.219.8.234 1 1 15352 20131004070950
+91.200.156.74 1 1 15352 20131006034854
+46.202.25.72 1 1 15352 20131028140311
+91.234.78.63 1 1 15352 20131013212513
+212.58.162.56 1 1 15352 20131016062340
+195.189.142.74 1 1 15352 20131009102550
+178.165.71.73 1 1 15352 20131030221530
+69.58.178.58 1 1 15352 20131013165128
+217.69.133.169 1 1 15352 20131022153950
+221.9.251.229 1 1 15352 20131016172949
+95.25.158.116 1 1 15352 20131008142511
+82.207.22.228 1 1 15352 20131008051013
+94.179.88.136 1 1 15352 20131023163456
+31.12.133.216 1 1 15352 20131025145517
+217.118.83.168 1 1 15352 20131005034813
+37.229.132.7 1 1 15352 20131005185202
+65.49.23.45 1 1 15352 20131005081710
+83.97.64.35 1 1 0 20131021181821
+193.28.177.41 1 1 15352 20131027075520
+98.139.241.241 1 1 15352 20131017150012
+54.200.117.98 1 1 15352 20131028153622
+37.212.229.90 1 1 15352 20131013050429
+5.61.33.207 1 1 15352 20131015093920
+93.115.82.179 1 1 15352 20131025075720
+178.165.96.167 1 1 15352 20131029035632
+82.137.11.121 1 1 15352 20131029233355
+42.114.101.161 1 1 15352 20131023000700
+82.145.210.135 1 1 15352 20131031024726
+128.74.247.200 2 2 30704 20131029073124
+98.139.241.252 1 1 15352 20131010084552
+111.243.168.21 1 1 15352 20131023224123
+178.151.196.251 1 1 15352 20131019163001
+194.247.178.5 1 1 15352 20131029172625
+82.117.238.149 1 1 15352 20131028100353
+108.29.105.152 1 1 15352 20131018160208
+204.155.149.27 1 1 15352 20131031080226
+82.117.238.241 1 1 15352 20131004091954
+82.145.210.46 1 1 15352 20131031122652
+38.229.70.44 2 2 30704 20131014141739
+77.244.47.236 1 1 15352 20131017000404
+94.23.202.64 2 2 30704 20131027014152
+54.206.0.126 1 1 15352 20131015090603
+91.220.204.80 1 1 15352 20131025073507
+93.77.111.193 1 1 15352 20131018113233
+77.120.190.46 1 1 15352 20131027201926
+46.202.179.89 1 1 15352 20131015003211
+82.145.209.25 1 1 15352 20131001144300
+46.105.59.74 1 1 0 20131017000301
+37.54.241.12 1 1 15352 20131019102804
+37.55.90.232 1 1 15352 20131011215031
+46.200.156.16 1 1 15352 20131022040216
+94.179.90.123 1 1 15352 20131031160426
+38.99.82.198 1 1 15352 20131002162735
+82.145.208.152 1 1 15352 20131028042054
+120.82.10.26 1 1 15352 20131009013745
+176.241.108.66 1 1 15352 20131020032254
+202.101.147.133 1 1 15352 20131031040924
+212.80.50.225 1 1 15352 20131001172502
+204.101.161.159 1 1 15352 20131003104622
+188.138.84.140 1 1 15352 20131018230200
+95.25.4.41 1 1 15352 20131022094241
+98.139.241.247 1 1 15352 20131009132808
+197.157.128.135 1 1 15352 20131006083609
+109.87.82.34 1 1 15352 20131003174512
+91.196.98.162 1 1 15352 20131028123842
+190.201.10.109 1 1 15352 20131007125936
+66.249.16.212 1 1 15352 20131008121522
+82.145.208.216 1 1 15352 20131025074555
+159.224.69.27 1 1 15352 20131020024411
+54.229.179.24 1 1 15352 20131004122208
+72.14.199.185 1 1 53 20131003040943
+37.53.105.217 1 1 15352 20131023215328
+195.88.72.157 1 1 15352 20131016145756
+128.74.239.229 1 1 15352 20131004113802
+77.120.147.73 1 1 15352 20131015193637
+131.253.24.23 1 1 15352 20131021171125
+82.117.239.244 1 1 15352 20131004032537
+38.99.82.230 1 1 15352 20131002162229
+98.139.241.242 1 1 15352 20131010043120
+41.142.248.251 1 1 15352 20131010063954
+96.227.124.38 1 1 15352 20131021154009
+77.122.8.82 1 1 15352 20131023154352
+5.223.241.201 1 1 15352 20131017053751
+217.69.133.186 1 1 15352 20131009101359
+82.145.208.150 1 1 15352 20131025012400
+82.117.230.67 1 1 15352 20131024114317
+46.96.234.162 1 1 15352 20131025155252
+98.139.241.240 1 1 15352 20131001104805
+82.117.234.135 1 1 15352 20131028093255
+91.229.177.134 1 1 15352 20131025005005
+37.57.7.19 1 1 15352 20131022140123
+109.86.224.234 1 1 15352 20131027172507
+82.117.234.16 1 1 15352 20131030053535
+61.178.69.68 1 1 15352 20131025143405
+80.77.95.46 1 1 15352 20131010043612
+109.62.153.57 1 1 15352 20131025221146
+195.189.123.9 1 1 15352 20131028102940
+118.186.141.68 1 1 15352 20131026120237
+77.122.37.99 1 1 15352 20131005184723
+209.126.230.72 2 2 30704 20131016085813
+66.249.84.98 2 2 30704 20131012031157
+37.229.185.147 1 1 15352 20131025171012
+146.185.166.214 1 1 15352 20131026011948
+159.224.92.89 1 1 15352 20131017033204
+93.77.93.118 1 1 15352 20131008011652
+94.179.6.140 1 1 15352 20131028175504
+66.249.93.142 2 2 30704 20131030073818
+109.94.9.154 1 1 15352 20131009112351
+71.58.175.76 1 1 15352 20131023111625
+46.19.136.212 1 1 15352 20131009080343
+176.102.32.150 1 1 15352 20131024104532
+78.111.187.149 1 1 15352 20131031173150
+213.87.130.133 1 1 15352 20131028044817
+98.139.241.243 1 1 15352 20131002144525
+82.145.221.198 1 1 15352 20131013151551
+209.126.230.71 2 2 30704 20131016085840
+218.4.100.252 1 1 15352 20131023112434
+77.120.172.176 1 1 15352 20131003020512
+178.150.175.59 2 2 30704 20131013173523
+217.21.96.130 1 1 15352 20131027024100
+46.229.167.149 1 1 15352 20131001092915
+120.14.129.223 1 1 15352 20131029004237
+46.200.152.106 1 1 15352 20131002084830
+94.124.160.90 1 1 15352 20131028173755
+98.139.241.244 1 1 15352 20131003081118
+176.103.119.39 1 1 15352 20131020143715
+46.211.182.208 1 1 15352 20131017150926
+82.145.217.70 1 1 15352 20131014181844
+188.230.122.46 1 1 15352 20131012091004
+124.121.47.11 1 1 15352 20131027034553
+82.145.220.37 1 1 15352 20131022033944
+82.145.211.18 1 1 15352 20131025081918
+159.224.56.118 1 1 15352 20131025075643
+77.120.182.111 1 1 15352 20131021133525
+94.179.4.80 1 1 15352 20131026102526
+59.152.251.27 1 1 15352 20131011224455
+46.8.34.2 1 1 15352 20131006071447
+82.145.221.181 1 1 15352 20131022144447
+46.188.32.119 2 2 30704 20131029150444
+159.224.20.11 1 1 15352 20131024173735
+178.151.225.21 1 1 15352 20131012165244
+77.52.48.106 1 1 15352 20131003073416
+109.87.54.73 1 1 15352 20131019144903
+176.212.216.123 1 1 15352 20131024133447
+82.145.211.99 1 1 15352 20131010160051
+121.199.49.149 1 1 15352 20131025015646
+77.120.187.253 1 1 15352 20131001041852
+195.189.142.81 1 1 15352 20131010074304
+37.52.147.40 1 1 15352 20131030142523
+78.154.179.103 1 1 15352 20131005090944
+176.193.70.42 1 1 15352 20131008103748
+78.111.187.50 1 1 15352 20131017022733
+195.211.140.247 1 1 15352 20131021124146
+92.113.210.159 1 1 15352 20131007170621
+159.224.68.121 1 1 15352 20131029151927
+77.120.155.205 1 1 15352 20131002224201
+82.117.249.176 1 1 15352 20131018143121
+185.26.182.37 1 1 15352 20131012162209
+178.165.59.162 1 1 15352 20131022153800
+54.200.203.217 1 1 15352 20131021094541
+77.122.80.130 1 1 15352 20131027011213
+176.193.61.126 2 2 30704 20131001134133
+192.99.9.164 1 1 15352 20131005044756
+193.164.130.30 1 1 15352 20131011081957
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131001 7 7 107464 7
+20131002 7 7 107464 7
+20131003 6 6 76813 6
+20131004 7 7 107464 7
+20131005 8 8 122816 8
+20131006 4 4 61408 4
+20131007 3 3 46056 3
+20131008 6 6 92112 6
+20131009 9 9 138168 7
+20131010 9 9 138168 9
+20131011 5 5 76760 5
+20131012 6 6 92112 6
+20131013 9 9 138168 8
+20131014 6 6 92112 6
+20131015 4 4 61408 4
+20131016 6 6 92112 6
+20131017 8 8 107464 8
+20131018 6 6 92112 6
+20131019 5 5 76760 5
+20131020 4 4 61408 4
+20131021 6 6 76760 6
+20131022 9 9 138168 9
+20131023 28 28 429856 12
+20131024 5 5 76760 5
+20131025 13 13 199576 13
+20131026 4 4 61408 4
+20131027 8 8 122816 8
+20131028 11 11 168872 11
+20131029 8 8 122816 7
+20131030 4 4 61408 4
+20131031 7 7 107464 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+15mn-30mn 1
+2mn-5mn 2
+30s-2mn 1
+0s-30s 203
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 227 3454200 207 207
+/google1f9bc751ef1cc238.html 1 53 1 1
+END_SIDER

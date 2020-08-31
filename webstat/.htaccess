@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/kharkovescort.com/webstat"
+AuthUserFile /var/www/mruser/data/etc/393048.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

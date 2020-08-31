@@ -1,0 +1,434 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kharkovescort.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2668                
+POS_VISITOR 9925                
+POS_DAY 12538               
+POS_DOMAIN 3345                
+POS_LOGIN 3574                
+POS_ROBOT 3760                
+POS_WORMS 4210                
+POS_EMAILSENDER 4341                
+POS_EMAILRECEIVER 4484                
+POS_SESSION 12942               
+POS_SIDER 13110               
+POS_FILETYPES 4619                
+POS_DOWNLOADS 4784                
+POS_OS 4853                
+POS_BROWSER 4966                
+POS_SCREENSIZE 5363                
+POS_UNKNOWNREFERER 5437                
+POS_UNKNOWNREFERERBROWSER 5734                
+POS_ORIGIN 5902                
+POS_SEREFERRALS 6038                
+POS_PAGEREFS 6240                
+POS_SEARCHWORDS 6622                
+POS_KEYWORDS 7708                
+POS_MISC 2332                
+POS_ERRORS 8382                
+POS_CLUSTER 3430                
+POS_SIDER_404 8502                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130901000826 1 0 9184216103651
+FirstTime 20130816172240
+LastTime 20130831224635
+LastUpdate 20130901010101 1 0 0 0 0
+TotalVisits 79                  
+TotalUnique 65                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 65                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 30704 4 10 31359
+1 4 4 61408 5 9 16737
+2 2 2 30704 2 4 1174
+3 4 4 46542 3 3 15944
+4 3 3 31190 1 2 15376
+5 3 3 46056 0 0 0
+6 2 2 30704 12 24 155276
+7 1 1 486 13 13 3943
+8 1 1 15352 3 6 15976
+9 5 5 76760 1 8 624
+10 5 5 76760 9 14 33035
+11 4 4 46542 0 9 315
+12 1 1 15352 3 3 15939
+13 4 4 46542 7 13 17970
+14 3 3 45908 5 13 47626
+15 6 6 92038 3 20 17511
+16 5 5 76760 15 20 6548
+17 13 39 728331 5 12 37065
+18 4 4 61408 8 14 63125
+19 5 5 76760 3 12 47001
+20 1 1 15352 6 6 31793
+21 8 8 122816 4 10 47513
+22 5 5 76760 14 20 185754
+23 4 4 31676 1 9 632
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 95 121 1882911
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+root 9 9 204789 20130816173412
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 42 430968 20130831215801 12
+no_user_agent 23 139770 20130831102728 6
+bot[\s_+:,\.\;\/\\-] 16 77462 20130831135048 9
+yandex 10 62014 20130827045819 5
+surveybot 2 15376 20130829194631 1
+unknown 2 48 20130822185153 2
+mj12bot 2 15376 20130829062914 1
+python 1 486 20130818012740 0
+crawl 1 15352 20130821124619 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 8 202252 0 0
+css 2 34498 0 0
+png 12 45203 0 0
+html 87 1203659 0 0
+js 10 397086 0 0
+gif 2 213 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 36 0 864
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 9
+winxp 18
+winlong 1
+winnt 4
+Unknown 6
+linux 39
+winvista 1
+win7 43
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 24
+msie6.0 7
+chrome29.0.1547.57 2
+firefox3.0 1
+chrome28.0.1500.95 40
+firefox3.6.16 1
+curl 2
+msie5.5 4
+chrome28.1.0.0 1
+opera9.80 8
+msie8.0 4
+mozilla 1
+firefox22.0 3
+msie7.0 22
+firefox23.0 3
+chrome25.0.1364.172 3
+firefox16.0 1
+firefox6.0 7
+chrome22.0.1229.94 2
+firefox3.6.3 1
+safari5.1.9 1
+chrome11.0.696.71 2
+Unknown 3
+safari 1
+chrome21.0.1180.89 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+SEOstats_2.1.0 20130831050417
+wscheck.com/1.0.0_(_http://wscheck.com/) 20130831050417
+curl 20130824034812
+Opera/9.80_(Series_60;_Opera_Mini/7.0.30697/30.3745;_U;_ru)_Presto/2.8.119_Version/11.10 20130827065941
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+SEOstats_2.1.0 20130831050417
+wscheck.com/1.0.0_(_http://wscheck.com/) 20130831050417
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 38
+From1 0 0
+From2 42 42
+From3 11 37
+From4 4 4
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 1 1
+baidu 19 19
+rambler 2 2
+yandex 19 19
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://78.140.173.24/myadmin/navigation.php 3 13
+https://78.140.173.24/myadmin/main.php 3 16
+https://78.140.173.24/myadmin/ 2 5
+https://78.140.173.24/ispmgr 1 1
+http://galkahost.com/clientarea.php 1 1
+http://forum.lvivescort.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+kharkovescort.com 6
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 4
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 3
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 2
+%d0%bf%d1%83%d1%82%d0%b0%d0%bd%d1%8b+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b0+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+%d0%ad%d1%81%d0%ba%d0%be%d1%80%d1%82+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%ba%d0%b8+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 13
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 8
+kharkovescort.com 6
+%d1%85%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 5
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b8 5
+%d0%b1%d0%bb%d1%8f%d0%b4%d0%b8 4
+%d1%88%d0%bb%d1%8e%d1%85%d0%b8 2
+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2%d0%b0 1
+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%ba%d0%b8 1
+%d0%ad%d1%81%d0%ba%d0%be%d1%80%d1%82 1
+%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%82%d0%ba%d0%b0 1
+%d0%bf%d1%83%d1%82%d0%b0%d0%bd%d1%8b 1
+%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d0%ba%d0%b8 1
+%d0%a5%d0%b0%d1%80%d1%8c%d0%ba%d0%be%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 3 3053
+403 2 586
+400 8 2472
+404 90 26371
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 31
+/drupal 1 http://kharkovescort.com/drupal
+/PMA/main.php 2 -
+/apple-touch-icon-precomposed.png 2 -
+/phpMyAdmin/main.php 2 -
+/LiveSearchSiteAuth.xml 1 -
+/admin/config.php 1 -
+/apple-touch-icon.png 2 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 2 -
+/admin/main.php 2 -
+/azenv.php 2 -
+/phpmyadmin/main.php 2 -
+/lg.php 1 http://extratorrent.com/search/
+/MyAdmin/scripts/setup.php 2 -
+/sql/main.php 2 -
+/HNAP1/ 3 http://78.140.173.24/
+/wp 1 http://kharkovescort.com/wp
+/notice.php 3 http://extratorrent.com/torrent/3180340/Once+Upon+Ay+Time+in+Mumbai+Dobaara+-+DVDScr+-+XviD+-+1xCD+%5BDDR%5D.html
+/phpmyadmin/scripts/setup.php 2 -
+/pma/scripts/setup.php 2 -
+/myadmin/scripts/setup.php 2 -
+/BingSiteAuth.xml 1 -
+/mysql/main.php 2 -
+/apu.php 3 http://extratorrent.com/torrent/3180340/Once+Upon+Ay+Time+in+Mumbai+Dobaara+-+DVDScr+-+XviD+-+1xCD+%5BDDR%5D.html
+/joomla 1 http://kharkovescort.com/joomla
+/wordpress 1 http://kharkovescort.com/wordpress
+/blog 1 http://kharkovescort.com/blog
+/phpMyAdmin/scripts/setup.php 2 -
+/user/soapCaller.bs 2 -
+/wp-login.php 2 -
+/styles.css 35 http://kharkovescort.com./
+/phppath/php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 65
+95.67.194.111 10 36 682275 20130816173412
+66.249.81.142 7 7 107390 20130829214655
+112.101.64.104 4 4 61408 20130820154005
+46.185.69.85 4 4 61408 20130827085037
+192.96.204.42 4 4 31676 20130822185154
+199.217.119.4 3 3 46056 20130831050417
+80.69.77.170 2 2 30704 20130824034812
+31.202.8.25 2 2 30704 20130823211853
+131.253.24.2 2 2 30630 20130818150630
+204.101.161.159 2 2 30704 20130823211038
+93.79.99.62 1 1 15352 20130831101735
+220.181.132.216 1 1 15352 20130821014857
+82.145.210.169 1 1 15352 20130827065941
+119.236.115.114 1 1 15352 20130818181440
+220.181.132.199 1 1 15352 20130821015023
+94.179.26.159 1 1 15352 20130826215353
+195.78.232.229 1 1 15352 20130829101813
+84.131.19.129 1 1 15352 20130826190220
+176.195.219.32 1 1 15352 20130827134624
+194.190.30.22 1 1 15352 20130831161204
+58.221.181.214 1 1 15352 20130828000450
+77.122.13.157 1 1 15352 20130829101223
+178.137.188.232 1 1 15352 20130825113313
+128.68.9.54 1 1 15352 20130821134545
+193.105.7.109 1 1 15352 20130821014317
+128.68.114.224 1 1 15352 20130830195511
+166.78.189.121 1 1 15352 20130819092450
+37.59.178.52 1 1 15352 20130827221825
+221.45.162.81 1 1 15352 20130831101831
+211.148.121.151 1 1 15352 20130821224331
+2.49.26.120 1 1 15352 20130831210708
+46.46.80.175 1 1 15352 20130831101811
+58.42.237.32 1 1 15352 20130827000423
+190.196.9.155 1 1 15352 20130826113532
+218.166.1.237 1 1 15352 20130822042207
+77.52.80.84 1 1 15352 20130825172745
+188.254.18.38 1 1 15352 20130829094752
+94.179.63.64 1 1 15352 20130823192424
+58.251.179.13 1 1 15352 20130827211845
+54.221.47.12 1 1 15352 20130827033919
+94.179.177.53 1 1 15352 20130831224635
+211.142.255.166 1 1 15352 20130830012304
+59.152.251.27 1 1 15352 20130818175829
+37.229.143.20 1 1 15352 20130827231428
+136.169.146.127 1 1 486 20130817113957
+124.14.8.26 1 1 15352 20130822192503
+124.239.211.2 1 1 15352 20130823040142
+36.250.123.247 1 1 486 20130817070343
+176.195.225.211 1 1 15352 20130820163038
+94.179.41.153 1 1 15352 20130831152401
+195.39.243.194 1 1 15278 20130818145655
+223.18.222.132 1 1 486 20130817032102
+94.102.51.246 1 1 486 20130818131518
+89.136.154.130 1 1 15352 20130826184544
+65.55.219.145 1 1 15352 20130818150635
+199.58.84.18 1 1 15352 20130827171840
+176.195.12.39 1 1 15352 20130828021744
+223.18.209.7 1 1 15352 20130821212234
+159.224.17.23 1 1 15352 20130824061238
+131.253.38.67 1 1 15352 20130825204618
+117.199.244.84 1 1 15352 20130822124109
+101.24.47.7 1 1 486 20130817043627
+176.195.50.180 1 1 15352 20130821024031
+113.255.187.142 1 1 15352 20130827232000
+198.101.238.203 1 1 15352 20130819161907
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20130816 10 36 682275 1
+20130817 6 6 2916 5
+20130818 9 9 123080 8
+20130819 4 4 61408 4
+20130820 5 5 76760 5
+20130821 8 8 122816 8
+20130822 5 5 76760 4
+20130823 6 6 92112 6
+20130824 3 3 46056 2
+20130825 6 6 92112 5
+20130826 5 5 76760 5
+20130827 10 10 153520 10
+20130828 2 2 30704 2
+20130829 4 4 61408 4
+20130830 2 2 30704 2
+20130831 10 10 153520 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 2
+30s-2mn 1
+0s-30s 76
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 86 1201122 79 78
+/myadmin/phpmyadmin.css.php 2 97497 0 0
+/myadmin/js/messages.php 2 48980 0 0
+/myadmin/version_check.php 1 44 0 1
+/myadmin/js/get_image.js.php 1 6106 0 0
+/myadmin/main.php 1 44726 0 0
+/myadmin/navigation.php 1 4899 0 0
+/myadmin/ 1 2537 0 0
+END_SIDER

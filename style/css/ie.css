@@ -1,0 +1,15 @@
+#content .box, #content .menu-with-balance .balance, #content .area-ankets .item .photo .check, #content .box,
+#content .area-ankets .item .photo .vip, #content .round, #content .btn, .popup .btn,
+.popup, .popup .textinput, .popup .close-btn, #content .form-box .row input.text, #content .form-box .row textarea,
+#content .pay-box .left-col .row.selected {
+    behavior: url(public/css/PIE.htc); 
+}
+#content .btn, .popup .btn {
+    behavior: none;
+}
+.overlay {
+    filter: alpha(opacity = 70);
+    zoom: 1;
+}
+#content div.btn input[type="file"]{filter: alpha(opacity = 0);}
+.popup .textinput {padding: 2px 10px 3px;}

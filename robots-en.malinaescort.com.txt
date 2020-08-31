@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /search-
+Disallow: /*?
+Host: https://en.malinaescort.com
+Sitemap: https://en.malinaescort.com/sitemap.xml 

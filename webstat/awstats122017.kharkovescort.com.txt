@@ -1,0 +1,518 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kharkovescort.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2683                
+POS_VISITOR 3359                
+POS_DAY 6305                
+POS_DOMAIN 6460                
+POS_LOGIN 6693                
+POS_ROBOT 6848                
+POS_WORMS 7316                
+POS_EMAILSENDER 7447                
+POS_EMAILRECEIVER 7590                
+POS_SESSION 7666                
+POS_SIDER 7803                
+POS_FILETYPES 14186               
+POS_DOWNLOADS 14450               
+POS_OS 14519               
+POS_BROWSER 14630               
+POS_SCREENSIZE 15021               
+POS_UNKNOWNREFERER 15095               
+POS_UNKNOWNREFERERBROWSER 15284               
+POS_ORIGIN 15366               
+POS_SEREFERRALS 15508               
+POS_PAGEREFS 15676               
+POS_SEARCHWORDS 17725               
+POS_KEYWORDS 17877               
+POS_MISC 2347                
+POS_ERRORS 17936               
+POS_CLUSTER 6549                
+POS_SIDER_404 18058               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171201010100 7349 1984530 9056590610509
+FirstTime 20171201000207
+LastTime 20171201005751
+LastUpdate 20171201010102 7349 0 7349 0 0
+TotalVisits 28                  
+TotalUnique 28                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 47                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 209 7126 100957177 98 220 9678679
+1 0 0 0 1 3 26241
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 47
+93.76.234.113 48 544 13688812 20171201002653 20171201002121 /site/captcha/v/5a20e81c0434e
+77.120.177.96 47 610 13087550 20171201005751 20171201001705 /site/captcha/v/5a20ef5b6c394
+92.113.197.234 17 72 2153114 20171201004629 20171201003838 /site/captcha/v/5a20ecb542b13
+46.197.120.210 12 431 5506269 20171201002655 20171201002411 /site/captcha/v/5a20e81f03cb2
+92.245.5.234 12 812 9624280 20171201001622 20171201001210 /site/captcha/v/5a20e59f5e927
+37.57.17.27 10 692 8384693 20171201001022 20171201000944 /site/captcha/v/5a20e43dd1d09
+107.167.104.93 5 401 4224802 20171201003237 20171201003233 /site/captcha/v/5a20e9726d359
+37.73.229.232 5 300 4657362 20171201000901 20171201000853 /site/captcha/v/5a20e3e5e0c56
+212.34.19.146 5 119 1990243 20171201000211 20171201000207 /site/captcha/v/5a20e24faf57a
+77.122.13.177 5 399 4200514 20171201001308 20171201001300 /site/captcha/v/5a20e4dd1cab3
+46.133.234.186 0 1 9661 
+66.102.9.57 2 101 1901711 20171201002034 20171201002033 /js/allJS.php
+65.55.210.105 1 2 104968 20171201005448 20171201005448 /comment/captcha/v/5a20bdd34a260
+117.2.130.228 0 101 829595 
+37.73.222.133 2 2 29867 20171201002429 20171201002359 /site/ajaxurlclick
+78.106.119.52 0 39 261894 
+199.30.25.106 1 1 5896 20171201005453 20171201005453 /site/captcha/v/5a20bdd3531e2
+185.89.217.173 0 3 14207 
+185.89.217.224 0 1 577 
+185.89.217.163 0 2 26424 
+95.84.151.96 1 287 2824796 20171201000944 20171201000944 /site/captcha/v/5a20e4158bef2
+65.55.210.44 0 2 59309 
+199.30.24.202 0 1 3883 
+185.89.217.166 1 1 428050 20171201000234 20171201000234 /
+185.89.217.161 1 2 139531 20171201000235 20171201000235 /js/allJS.php
+185.89.217.172 0 1 10436 
+185.89.217.233 0 1 10359 
+217.118.95.120 5 399 4095417 20171201002151 20171201002142 /site/captcha/v/5a20e6e6c763c
+199.30.24.179 0 1 112530 
+47.31.13.138 4 397 4153931 20171201005019 20171201004954 /site/captcha/v/5a20ed8340c3a
+65.55.210.187 1 1 6772 20171201005449 20171201005449 /site/captcha/v/5a20bdd34b641
+66.102.9.55 2 94 1667527 20171201002037 20171201002034 /site/captcha/v/5a20e6a18b41d
+185.89.217.167 0 1 11873 
+199.30.25.227 0 1 63093 
+185.89.217.175 0 1 892 
+185.89.217.235 0 1 14042 
+5.228.17.93 2 70 973654 20171201000941 20171201000941 /js/allJS.php
+207.154.231.74 4 126 2072220 20171201002412 20171201002408 /style/css/fonts/glyphicons-halflings-regular.woff2
+178.94.5.181 5 399 4194225 20171201005550 20171201005536 /site/captcha/v/5a20eed8cf842
+176.85.146.75 4 298 4690557 20171201003841 20171201003836 /site/captcha/v/5a20eadd103e8
+185.89.217.165 0 1 14512 
+185.89.217.160 0 1 916 
+185.89.217.169 0 1 12153 
+66.102.9.53 1 105 1168796 20171201002038 20171201002038 /style/css/fonts/glyphicons-halflings-regular.woff2
+199.30.24.39 0 3 173627 
+113.176.82.182 4 296 3284017 20171201003900 20171201003820 /site/captcha/v/5a20eacd1cb57
+79.87.188.152 2 2 67620 20171201004924 20171201004851 /190/masha/380501349474
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20171201 209 7126 100957177 28
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 209 7126 100957177
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 62 2020967 20171201010100 6
+bot[\s_+:,\.\;\/\\-] 43 2095180 20171201005913 2
+robot 16 3240947 20171201005619 0
+yandex 13 1102354 20171201010023 4
+seznambot 7 89832 20171201003531 2
+mail\.ru 4 143512 20171201005557 0
+slurp 2 443993 20171201005507 1
+no_user_agent 1 112530 20171201003350 0
+baiduspider 1 122679 20171201000910 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 153
+/js/allJS.php 21 2585920 1 0
+/style/css/fonts/glyphicons-halflings-regular.woff2 16 288448 1 0
+/ 15 6553293 13 0
+/190/masha/380501349474 2 67620 1 0
+/136/alina/380674400160 2 71369 0 0
+/157/lilya/380509589771 2 67394 0 0
+/site/captcha/v/5a20e9726d359 2 12814 0 0
+/site/ajaxurlclick 2 29867 1 0
+/163/liza/380509592622 2 68365 0 0
+/126/liza/380637440028 2 85539 1 0
+/site/captcha/v/5a20e4dd1cab3 1 6125 0 0
+/site/captcha/v/5a20e6ffe1832 1 5712 0 0
+/180/katya/380957960507 1 34805 0 0
+/comment/captcha/v/5a20e81befc67 1 5412 0 0
+/site/captcha/v/5a20eadebdbf1 1 6573 0 0
+/124/polina/380631932105 1 34308 0 0
+/user/registration/captcha/v/5a20e4dd15f42 1 5612 0 0
+/comment/captcha/v/5a20e73ad9705 1 5619 0 0
+/comment/captcha/v/5a20eefe357f8 1 6543 0 0
+/site/captcha/v/5a20e43dd1d09 1 6768 0 0
+/site/captcha/v/5a20ef5b64857 1 5763 0 0
+/erotic-54 1 450546 0 0
+/user/registration/captcha/v/5a20eadeb7cea 1 5810 0 0
+/151/lada/380993149444 1 34182 0 0
+/site/captcha/v/5a20e6e3b7f91 1 5685 0 0
+/blowjob_in_car-29 1 452236 1 0
+/comment/captcha/v/5a20e75ba36b3 1 6042 0 0
+/site/writeSms 1 198 0 0
+/site/captcha/v/5a20eb617db60 1 7584 0 0
+/191/slava/380660576409 1 34949 0 0
+/site/captcha/v/5a20ef5b6c394 1 6126 0 0
+/162/marina/380933303016 1 33592 0 0
+/209/margarita/380955658383 1 33744 0 0
+/site/captcha/v/5a20e77340cb6 1 5666 0 0
+/site/captcha/v/5a20e7ce77607 1 5819 0 0
+/scat-44 1 442465 1 0
+/comment/captcha/v/5a20ef5b6357d 1 6247 0 0
+/site/captcha/v/5a20eec2df3d6 1 5873 0 0
+/area/46 1 446806 1 0
+/site/captcha/v/5a20eec2d76a6 1 6154 0 0
+/site/captcha/v/5a20ed8340c3a 1 6244 0 0
+/site/captcha/v/5a20e4f13de03 1 6425 0 0
+/site/captcha/v/5a20edc0da224 1 6478 0 0
+/site/captcha/v/5a20ecb542b13 1 7449 0 0
+/site/captcha/v/5a20ee051228c 1 6776 0 0
+/comment/captcha/v/5a20eb6171fdf 1 6197 0 0
+/site/captcha/v/5a20e41894155 1 7059 0 0
+/site/captcha/v/5a20e42349ab3 1 6976 0 0
+/site/captcha/v/5a20eadd103e8 1 5996 0 0
+/site/captcha/v/5a20eb6173368 1 7548 0 0
+/user/registration/captcha/v/5a20e778a09dc 1 5682 0 0
+/site/captcha/v/5a20eefe36a94 1 5815 0 0
+/134/lina/380674400160 1 33793 0 0
+/comment/captcha/v/5a20bdd34a260 1 6293 1 0
+/site/captcha/v/5a20ee878c6d4 1 5808 0 0
+/article/sex_dating_kharkiv-3 1 77839 1 0
+/comment/captcha/v/5a20edc0d8f25 1 6566 0 0
+/site/captcha/v/5a20ed10374c0 1 6244 0 0
+/comment/captcha/v/5a20eec2d639e 1 6781 0 0
+/site/captcha/v/5a20eefe3e155 1 6399 0 0
+/site/captcha/v/5a20e7a2cd4c9 1 5650 0 0
+/user/registration/captcha/v/5a20eed8c8b33 1 5442 0 0
+/205/karina/380964497499 1 35979 0 0
+/user/registration/captcha/v/5a20e6e6c0757 1 5465 0 0
+/site/captcha/v/5a20bdd3531e2 1 5896 1 0
+/comment/captcha/v/5a20e7ce6eb78 1 5627 0 0
+/user/registration/captcha/v/5a20e24fa8aac 1 7049 0 0
+/site/captcha/v/5a20e81c0434e 1 5802 0 0
+/176/katya/380984159399 1 33548 0 0
+/site/captcha/v/5a20e59f5e927 1 5096 0 0
+/site/captcha/v/5a20e4158bef2 1 5738 1 0
+/145/violetta/380663355884 1 34392 0 0
+/site/captcha/v/5a20e75bae328 1 5845 0 0
+/site/captcha/v/5a20e71d8c4ab 1 5921 0 0
+/comment/captcha/v/5a20ed756a33a 1 6923 0 0
+/183/zhenya/380669434686 1 34363 0 0
+/comment/captcha/v/5a20ee878b337 1 6654 0 0
+/site/captcha/v/5a20e73ae46a9 1 5740 0 0
+/site/captcha/v/5a20e6ffe92cb 1 5235 0 0
+/site/captcha/v/5a20ed306e00a 1 6367 0 0
+/site/captcha/v/5a20e7ce6fe00 1 5594 0 0
+/site/captcha/v/5a20e43dca617 1 6985 0 0
+/site/captcha/v/5a20eca0ad75a 1 5931 0 0
+/site/captcha/v/5a20edc0e2451 1 6043 0 0
+/comment/captcha/v/5a20ecc4bcc24 1 6717 0 0
+/comment/captcha/v/5a20ed306cd88 1 6674 0 0
+/129/irma/380637440028 1 34261 0 0
+/154/alina/380993149444 1 34251 0 0
+/site/captcha/v/5a20e7d77f824 1 5926 0 0
+/site/captcha/v/5a20e4aa5ff69 1 6117 0 0
+/site/captcha/v/5a20e7d787435 1 5929 0 0
+/site/captcha/v/5a20e6e6c763c 1 5927 0 0
+/site/captcha/v/5a20ee050a2e5 1 6221 0 0
+/comment/captcha/v/5a20e43dc93cc 1 7403 0 0
+/130/zhenya/380639219994 1 34474 0 0
+/site/captcha/v/5a20eacd1cb57 1 5442 0 0
+/site/captcha/v/5a20e6d22b7ae 1 5809 0 0
+/site/captcha/v/5a20ee8793ec8 1 6427 0 0
+/user/registration/captcha/v/5a20eb6177ece 1 5621 0 0
+/comment/captcha/v/5a20e7733f953 1 5746 0 0
+/site/captcha/v/5a20e7f506c2d 1 5562 0 0
+/comment/captcha/v/5a20e7d77e4c3 1 6377 0 0
+/site/captcha/v/5a20e6e3bf990 1 5323 0 0
+/comment/captcha/v/5a20e4f13cb87 1 5851 0 0
+/164/viola/380509592622 1 33722 0 0
+/site/captcha/v/5a20ed102fba1 1 6102 0 0
+/user/registration/captcha/v/5a20e972663a4 1 6180 0 0
+/comment/captcha/v/5a20e6e3b6d60 1 5898 0 0
+/comment/captcha/v/5a20ed102e89c 1 6611 0 0
+/site/captcha/v/5a20ed30755ff 1 6067 0 0
+/comment/captcha/v/5a20e7f505918 1 5617 0 0
+/site/captcha/v/5a20e7848e8b6 1 5468 0 0
+/site/captcha/v/5a20e6a18b41d 1 7217 0 0
+/135/alena/380674400160 1 34272 0 0
+/comment/captcha/v/5a20e7848d362 1 5661 0 0
+/site/captcha/v/5a20e77bbd56a 1 5866 0 0
+/site/captcha/v/5a20ed7572a87 1 6131 0 0
+/site/captcha/v/5a20bdd34b641 1 6772 1 0
+/site/captcha/v/5a20e71d93d2d 1 5863 0 0
+/comment/captcha/v/5a20ee0508e7f 1 6947 0 0
+/comment/captcha/v/5a20e6ffe0613 1 5661 0 0
+/site/captcha/v/5a20e81f03cb2 1 6270 0 0
+/142/katya/380663355884 1 34706 0 0
+/site/captcha/v/5a20eed8cf842 1 6438 0 0
+/site/captcha/v/5a20ecc4bdfaf 1 5955 0 0
+/site/captcha/v/5a20e73adac3c 1 5612 0 0
+/site/captcha/v/5a20e7a2d4e95 1 5515 0 0
+/comment/captcha/v/5a20e71d8b19c 1 5960 0 0
+/comment/captcha/v/5a20e7a2cc123 1 6107 0 0
+/site/captcha/v/5a20e78495eeb 1 5322 0 0
+/177/vika/380984159399 1 33556 0 0
+/site/captcha/v/5a20e81ef0515 1 6030 0 0
+/site/captcha/v/5a20e7734897b 1 6000 0 0
+/comment/captcha/v/5a20eadeb195a 1 6078 0 0
+/site/captcha/v/5a20e7f50dfaa 1 5449 0 0
+/197/inna/380934912020 1 35577 0 0
+/user/registration/captcha/v/5a20e6a1845b1 1 5211 1 0
+/user/registration/captcha/v/5a20e3e5da631 1 6302 0 0
+/147/ukiana/380934904625 1 34851 0 0
+/207/vlada/380955658383 1 33266 0 0
+/site/captcha/v/5a20e3e5e0c56 1 6284 0 0
+/site/captcha/v/5a20e81bf0f0d 1 5627 0 0
+/site/captcha/v/5a20ecc4c5cb4 1 6406 0 0
+/bdsm-47 1 451981 1 0
+/site/captcha/v/5a20ecb538892 1 6994 0 0
+/site/captcha/v/5a20ed756b859 1 5708 0 0
+/site/captcha/v/5a20e4f145484 1 6098 0 0
+/comment/captcha/v/5a20ecb5375a9 1 6163 0 0
+/site/captcha/v/5a20eadeb2d15 1 7091 0 0
+/site/captcha/v/5a20e75ba499e 1 5727 0 0
+/comment/captcha/v/5a20e81eef2cf 1 6142 0 0
+/user/registration/captcha/v/5a20ecb53cfb2 1 5470 0 0
+/site/captcha/v/5a20e24faf57a 1 7791 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 126 410220 0 0
+png 107 527745 0 0
+woff2 16 288448 0 0
+php 21 2585920 0 0
+html 15 6553293 0 0
+jpg 6521 74765079 0 0
+js 98 649986 0 0
+jpeg 11 1237830 0 0
+Unknown 157 4149385 0 0
+gif 54 9789271 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 15 0 360
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+linuxandroid 1624
+winnt 396
+linux 300
+win7 1726
+macosx 2679
+Unknown 401
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 18
+chrome11.0.696.34 300
+chrome45.0.2454.94 399
+chrome61.0.3163.98 126
+safari 119
+chrome60.0.3112.116 1
+chrome58.0.3029.83 397
+mozilla 13
+chrome62.0.3202.75 431
+safari10.0 958
+chrome62.0.3202.94 610
+chrome61.0.3163.100 396
+firefox57.0 1211
+chrome55.0.2883.91 302
+safari10.3 1
+firefox49.0 72
+safari11.0 990
+opera9.80 401
+chrome62.0.3202.84 399
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Opera/9.80_(Android;_Opera_Mini/20.0.2254/77.161;_U;_ru)_Presto/2.12.423_Version/12.16 20171201003238
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 8 18
+From1 0 0
+From2 17 17
+From3 134 4582
+From4 50 2509
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 16 16
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 34
+http://en.kharkovescort.com 44 3227
+http://en.kharkovescort.com/157/lilya/380509589771 6 22
+http://en.kharkovescort.com/163/liza/380509592622 6 19
+http://tr.kharkovescort.com 5 409
+http://en.kharkovescort.com/style/css/kharkov/bootstrap.min.css 4 4
+http://en.kharkovescort.com/191/slava/380660576409 3 13
+http://en.kharkovescort.com/134/lina/380674400160 3 12
+http://en.kharkovescort.com/scat-44 3 297
+http://en.kharkovescort.com/151/lada/380993149444 3 13
+http://en.kharkovescort.com/162/marina/380933303016 3 13
+http://tr.kharkovescort.com/style/css/kharkov/main.css 0 6
+http://en.kharkovescort.com/145/violetta/380663355884 3 13
+http://en.kharkovescort.com/147/ukiana/380934904625 3 17
+http://tr.kharkovescort.com/207/vlada/380955658383 3 11
+http://en.kharkovescort.com/177/vika/380984159399 3 11
+http://en.kharkovescort.com/136/alina/380674400160 3 13
+http://en.kharkovescort.com/129/irma/380637440028 3 15
+http://en.kharkovescort.com/164/viola/380509592622 3 13
+http://en.kharkovescort.com/176/katya/380984159399 3 11
+http://en.kharkovescort.com/135/alena/380674400160 3 16
+http://en.kharkovescort.com/209/margarita/380955658383 3 9
+http://en.kharkovescort.com/124/polina/380631932105 3 14
+http://en.kharkovescort.com/style/css/kharkov/main.css 0 21
+http://tr.kharkovescort.com/style/css/kharkov/jquery.fancybox.css 0 3
+http://en.kharkovescort.com/183/zhenya/380669434686 3 12
+http://en.kharkovescort.com/180/katya/380957960507 3 14
+http://en.kharkovescort.com/130/zhenya/380639219994 0 10
+http://en.kharkovescort.com/style/css/kharkov/jquery.fancybox.css 0 3
+http://tr.kharkovescort.com/136/alina/380674400160 3 16
+http://en.kharkovescort.com/142/katya/380663355884 3 13
+http://en.kharkovescort.com/154/alina/380993149444 3 16
+http://en.kharkovescort.com/erotic-54 2 282
+http://en.kharkovescort.com/197/inna/380934912020 3 13
+http://tr.kharkovescort.com/style/css/kharkov/bootstrap.min.css 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 6 9385
+302 1 0
+404 30 200074
+301 37 123467
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/133/Lara/service0 1 -
+/apple-icon-60x60.png 1 -
+/apple-touch-icon-precomposed.png 2 -
+/style/css/img/loading.gif 12 http://en.kharkovescort.com/style/css/kharkov/star-rating.min.css
+/apple-icon-152x152.png 1 -
+/apple-icon-180x180.png 2 -
+/68/Margo/380984159399 1 -
+/21/dara/380935274343 1 -
+/133/Lara/service4 1 -
+/133/Lara/service5 1 -
+/apple-touch-icon.png 4 -
+/133/Lara/service1 1 -
+/133/Lara/service2 1 -
+/133/Lara/service3 1 -
+END_SIDER_404
